@@ -1025,6 +1025,60 @@ Byy Store
 							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
                             devil.relayWAMessage(prep)
                             break
+ case 'Mlsuperslow':               
+               parseMention = (text = '') => {
+               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
+               totalChat = await devil.chats.all()
+               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
+               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+               total = math(`${groups.length}*${privat.length}`)
+               timestampe = speed();
+               latensie = speed() - timestampe             
+               menu = `*DIAMOND ML SUPER SLOW*
+  *PAKET A*
+*PROSES 7-10 Hari Max 14 HARI*
+
+735  💎 : Rp. 118.925
+980  💎 : Rp. 158.900
+1225💎 : Rp. 198.875
+1470💎 : Rp. 235.850
+1715💎 : Rp. 274.825
+1960💎 : Rp. 312.800
+2205💎 : Rp. 349.775
+2450💎 : Rp. 389.750
+2695💎 : Rp. 427.725
+
+*PAKET B*
+*PROSES 14-20 HARI*
+
+3185 💎 = Rp. 498.675
+3675 💎 = Rp. 579.625
+3884 💎 = Rp. 617.020
+4165 💎 = Rp. 660.575
+4655 💎 = Rp. 736.525
+4900 💎 = Rp. 780.500
+5390 💎 = Rp. 858.450
+`                          
+               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+
+               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
+
+               buttonsMessage = {
+               contentText: `${menu}`,
+               footerText: `Happy Shopping _© Byy Store_
+`, imageMessage: imageMsg,
+               buttons: buttons,
+               headerType: 4
+}
+            
+               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
+							title: `Hai ${pushname} 👋`,
+							body: `${tanggal}`,
+							previewType: 1,
+							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
+							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
+                            devil.relayWAMessage(prep)
+                            break
         case 'pay':
         case 'pembayaran':               
                parseMention = (text = '') => {
@@ -1064,6 +1118,50 @@ Untuk Pembayaran Menggunakan Uang Cash/Cod + 2k
 							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
                             devil.relayWAMessage(prep)
                             break
+        case 'mld':               
+               parseMention = (text = '') => {
+               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
+               totalChat = await devil.chats.all()
+               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
+               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+               total = math(`${groups.length}*${privat.length}`)
+               timestampe = speed();
+               latensie = speed() - timestampe             
+               menu =` *LIST HARGA ML PAKE D*
+               
+14💎3.900
+42💎1.000
+70💎16.700
+140💎31.900
+284💎62.500
+355💎77.000
+429💎93.000
+716💎154.000
+1.446💎305.000
+2.976💎607.000
+7.502💎1.520.000
+`                          
+               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+
+               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
+
+               buttonsMessage = {
+               contentText: `${menu}`,
+               footerText: `Happy Shopping _© Byy Store_
+`, imageMessage: imageMsg,
+               buttons: buttons,
+               headerType: 4
+}
+            
+               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
+							title: `Hai ${pushname} 👋`,
+							body: `${tanggal}`,
+							previewType: 1,
+							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
+							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
+                            devil.relayWAMessage(prep)
+                            break
+  
         case 'ff':
         case 'freefire':               
                parseMention = (text = '') => {
@@ -1138,23 +1236,23 @@ case 'mlbba':
                total = math(`${groups.length}*${privat.length}`)
                timestampe = speed();
                latensie = speed() - timestampe             
-               menu =`─ *Diamond Mobile Legends FAST A* ─
+               menu =`_*ByyStore BOT*_
 *Diamond Mobile Legends Paket A*
 *VIA ID + SERVER*
 
-86💎 = Rp. 19.506
-172💎 = Rp. 38.000
-257💎 = Rp. 57.539
-344💎 = Rp. 76.335
-429💎 = Rp. 95.507
-514💎 = Rp. 114.677
-600💎 = Rp. 133.973
-706💎 = Rp. 152.800
-878💎 = Rp. 189.900
+86💎 = Rp. 19.206
+172💎 = Rp. 37.250
+257💎 = Rp. 56.839
+344💎 = Rp. 75.335
+429💎 = Rp. 93.507
+514💎 = Rp. 111.677
+600💎 = Rp. 132.973
+706💎 = Rp. 150.800
+878💎 = Rp. 187.900
 963💎 = Rp. 205.200
-1050💎 = Rp. 227.900
-1412💎 = Rp. 301.900
-2195💎 = Rp. 446.960
+1050💎 = Rp. 226.900
+1412💎 = Rp. 298.900
+2195💎 = Rp. 443.960
 
 BERLAKU KELIPATAN
 
