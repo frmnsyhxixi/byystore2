@@ -940,11 +940,7 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                timestampe = speed();
                latensie = speed() - timestampe             
                menu =` *─ Byy Store ─*
-               
- 𝘏𝘢𝘭𝘭𝘰 𝘒𝘢𝘬 *${pushname}* TERIMAKASIH SUDAH MENGUNJUNGI Byy Store~            
-
-*─ Byy Store ─*
-               
+   
  𝘏𝘢𝘭𝘭𝘰 𝘒𝘢𝘬 *${pushname}* TERIMAKASIH SUDAH MENGUNJUNGI Byy Store~            
 
 *LIST MENU BYY STORE*
@@ -985,34 +981,7 @@ Contoh = .menu`
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: ` ── *List Produk* ──
-${prefix}ff
-${prefix}mlbb
-${prefix}sausage
-${prefix}Cashpb
-${prefix}Netflix
-${prefix}Genshin
-${prefix}Pubg
-${prefix}Mld
-${prefix}Mlsuperslow
-${prefix}Sosmed
-${prefix}Ragnarox
-${prefix}Valorant
-${prefix}Rekber
-${prefix}Mlpo
-${prefix}Promo
-${prefix}Botwa
-${prefix}reedemml
-
-── *List Menu* ──
-${prefix}menu
-${prefix}pay
-${prefix}owner
-${prefix}pay
-${prefix}Qriss
-${prefix}Caraorder
-${prefix}format
-Byy Store
+               footerText: `©Byy Store
 `, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
