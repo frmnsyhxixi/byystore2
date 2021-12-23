@@ -1335,37 +1335,6 @@ Terimakasih Semoga Mengerti ^_^
 							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
                             devil.relayWAMessage(prep)
                             break
-  case 'promo':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`*KALAU BOT BALES LAGI BERARTI ADA PROMO*
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
    case 'rekber':               
                parseMention = (text = '') => {
                return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
