@@ -1079,135 +1079,17 @@ Via ID
 =================
 Wa.me/6289507948843`)
              break
-  case 'mld':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`_*ByyStore BOT*_
-       
-*LIST HARGA BOT BYY STORE*
-=====================
-*BIASA* : 10K
-*BISA HIDETAG,TAGALL* : 15K
-*BISA ANTIWAME,ANTIVIRTEX,ANTILINK* : 15K
-*KOMPLIT* : 25K
-
-*LIST HARGA RUN BOT WA*
-======================
-*1 MINGGU*  : 7K
-*1 BULAN* : 15k
-*PERMANEN* : 20K`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
-  case 'mld':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`*CONTOH FORMAT :*
-
-Berikan Keterangan Order apa : (DM ML,FF,CANDY,PUBG,CASH PB,YT PREM DAN LAIN LAIN)
-ID : 
-SERVER : 
-Nominal Order :
-
-*KIRIM SS PAYMENT/PEMBAYARAN*
-
-Terimakasih Semoga Mengerti ^_^
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
   case 'caraorder':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`_*CARA ORDER DM BYYSTORE*_
+        reply(`_*CARA ORDER DM BYYSTORE*_
 
 1. Tanyakan Stock Ke Admin
 2. Tf ke Nomer Ewallet Admin
 3. Kirim Id Server/Data
 4. Proses
-5. Done`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+5. Done`)
+             break
    case 'rekber':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`*Jasa Rekber All Akun Game Online*
+         reply(`*Jasa Rekber All Akun Game Online*
 
 Sistem 
 1. Pembeli Tf Ke Admin + Fee Yang Telah Ditentukan💵
@@ -1216,38 +1098,11 @@ Sistem
 4. Admin Meneruskan Data Akun Ke Pembeli Untuk Di Cek✅
 5. Bila Sudah Katakan Done✅
 ====================
-*Note* : Semisal Pembeli Tf Ke Dana Maka Akan Diteruskan Ke Dana Penjual 💵
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+*Note* : Semisal Pembeli Tf Ke Dana Maka Akan Diteruskan Ke Dana Penjual 💵`)
+             break
+             
    case 'valorant':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`*VALORANT POINT*
+               reply(`**VALORANT POINT*
 *VIA ID + TAG*
 
 *125 VP* Rp. 15.200🎮
@@ -1261,75 +1116,20 @@ Sistem
 Jam Operasional : Buka 24 Jam
 Estimasi proses : 1 - 20 menit
 Proses maksimal 24 jam
-*HARGA SEWAKTU WAKTU BERUBAH*
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+*HARGA SEWAKTU WAKTU BERUBAH*`)
+             break
+             
    case 'ragnarox':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`LIST Ragnarox X Generation
+               reply(`LIST Ragnarox X Generation
 2580💎= Rp63.000
 6450💎= Rp157.500
 10300💎= Rp252.200
 12900💎= Rp315.000
 
-Via id:
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+Via id:`)
+             break
    case 'sosmed':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`*° = Tiktok = °*
+               reply(`*° = Tiktok = °*
 
 • Tiktok View
 - 1M View 35rb
@@ -1414,38 +1214,10 @@ Note : Jasa Promote IG anda untuk menaikan Followers Indonesia 100% Murni VIA TA
 ( NO GARANSI )
 
 Guaranted : * Garansi *
-JIKA DROP DAN STATUS GARANSI , MAKA AKAN DI ISI ULANG.
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+JIKA DROP DAN STATUS GARANSI , MAKA AKAN DI ISI ULANG.`)
+             break
    case 'pubg':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`*UC PUBG MOBILE REG INDO 🇮🇩*
+              reply(`*UC PUBG MOBILE REG INDO 🇮🇩*
 *VIA ID & NICK*
 *Estimasi proses : 1 - 30 menit, MAX 24 JAM*
 
@@ -1465,38 +1237,10 @@ JIKA DROP DAN STATUS GARANSI , MAKA AKAN DI ISI ULANG.
 4400💵 Rp. 683.000
 5500💵 Rp. 855.000
 6600💵 Rp. 1.028.000
-*BERLAKU KELIPATAN*
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+*BERLAKU KELIPATAN*`)
+             break
     case 'netflix':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =` Netflix Shared (1 Profile) : Rp. 35.000/Bulan
+               reply(`Netflix Shared (1 Profile) : Rp. 35.000/Bulan
 
 ✅ Streaming Ultra HD
 ✅ 100% Legal dan safe
@@ -1513,40 +1257,12 @@ Syarat & Ketentuan :
 
 Melanggar tidak dapat garansi!
 
-*TERIMA KASIH*
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}menu`,buttonText:{displayText:'MENU AWAL'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `Happy Shopping _© Byy Store_
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+*TERIMA KASIH*`)
+             break
   
         case 'ff':
         case 'freefire':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`─ *FreeFire* ─
+               reply(`─ *FreeFire* ─
 
 _*Diamond Free fire 🔥*_
 Via ID || 1-10 Menit (Max 24 Jam)
@@ -1576,27 +1292,8 @@ Membership Bulanan : Rp 138.675
 *FORMAT ORDER*
 ID :
 NICK :
-ORDER DM :`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'PEMBAYARAN'},type:1},{buttonId: `${prefix}format1`,buttonText:{displayText: 'FORMAT ORDER'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `*HARGA SEWAKTU WAKTU BERUBAH*
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+ORDER DM :`)
+             break
 case 'format1':
              reply(`*CONTOH FORMAT :*
 
@@ -1643,15 +1340,7 @@ case 'format2':
              break 
       case 'mlbbsemi':
         case 'mlb':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`─ *Mobile Legends SEMI FAST* ─
+               reply(`─ *Mobile Legends SEMI FAST* ─
                
 *Diamond Mobile Legends Paket B*
 *VIA ID + SERVER*
@@ -1676,27 +1365,8 @@ NB : Proses maksimal 24 jam
 ID :
 (Server) :
 NICK :
-ORDER DM :`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'PEMBAYARAN'},type:1},{buttonId: `${prefix}format3`,buttonText:{displayText: 'FORMAT ORDER'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `*HARGA SEWAKTU WAKTU BERUBAH*
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+ORDER DM :`)
+             break
 case 'format3':
              reply(`*Format Order (mlbb B)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
              break 
