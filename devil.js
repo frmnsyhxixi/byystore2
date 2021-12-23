@@ -1746,7 +1746,7 @@ Nominal Order :
 
 Terimakasih Semoga Mengerti ^_^`)
              break
-case 'format1':
+case 'mla':
              reply(`_*ByyStore BOT*_
 *Diamond Mobile Legends Paket A*
 *VIA ID + SERVER*
