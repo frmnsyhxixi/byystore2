@@ -1854,7 +1854,7 @@ Byy Store Menyediakan 2 Paket Untuk TopUp Mobile Legend
 *PAKET B : Fast B*
 *PAKET C : SemiFast*
 `                          
-               buttons = [{buttonId: `${prefix}mlbba`,buttonText:{displayText: 'PAKET A'},type:1},{buttonId:`${prefix}mlbbsemi`,buttonText:{displayText:'PAKET B'},type:1},{buttonId: `${prefix}mlbbsemic`,buttonText:{displayText: 'PAKET C'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+               buttons = [{buttonId: `${prefix}mla`,buttonText:{displayText: 'PAKET A'},type:1},{buttonId:`${prefix}mlbbsemi`,buttonText:{displayText:'PAKET B'},type:1},{buttonId: `${prefix}mlbbsemic`,buttonText:{displayText: 'PAKET C'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
 
                imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
 
