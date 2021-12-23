@@ -2170,7 +2170,7 @@ Proses maksimal 24 jam
                             break
         case 'list':
                list = []
-               listmenu = [`ff`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format`,`pay`]
+               listmenu = [`ff`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format1`,`pay`]
                listmenuu = [`LIST Free Fire`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`]
                nombor = 1
                startnum = 0
