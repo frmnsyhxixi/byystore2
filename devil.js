@@ -1188,11 +1188,11 @@ Via ID
 - Sewa 30 Hari 20k
 ==================
 *Harga Beli Sc BOT*
-- Sc Biasa 20k
-- Sc Prem 30k (Bisa Hidetag dll)
+- Sc A 30k
+- Sc B 35k 
 =================
 *Sepaket 2 SC*
-- Paket 2 30k
+- Paket 2 50k
 =================
 Wa.me/6289507948843
 `                          
