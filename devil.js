@@ -1735,7 +1735,16 @@ ORDER DM :`
                             devil.relayWAMessage(prep)
                             break
 case 'format1':
-             reply(`*Format Order: (FreeFire)*\n\nNickname:\nID :\nSisa DM:\nOrder DM:`)
+             reply(`*CONTOH FORMAT :*
+
+Berikan Keterangan Order apa : (DM ML,FF,CANDY,PUBG,CASH PB,YT PREM DAN LAIN LAIN)
+ID : 
+SERVER : 
+Nominal Order :
+
+*KIRIM SS PAYMENT/PEMBAYARAN*
+
+Terimakasih Semoga Mengerti ^_^`)
              break
 case 'mlbba':
         case 'mla':               
