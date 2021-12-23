@@ -1775,27 +1775,6 @@ Estimasi proses : 1 - 10 menit
 NB : Proses maksimal 24 jam
 *HARGA SEWAKTU WAKTU BERUBAH*`)
              break
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'PEMBAYARAN'},type:1},{buttonId: `${prefix}format2`,buttonText:{displayText: 'FORMAT ORDER'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
-
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `*HARGA SEWAKTU WAKTU BERUBAH*
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
 case 'format2':
              reply(`*Format Order (mlbb A)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
              break 
