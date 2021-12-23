@@ -1746,17 +1746,8 @@ Nominal Order :
 
 Terimakasih Semoga Mengerti ^_^`)
              break
-case 'mlbba':
-        case 'mla':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`_*ByyStore BOT*_
+case 'format1':
+             reply(`_*ByyStore BOT*_
 *Diamond Mobile Legends Paket A*
 *VIA ID + SERVER*
 
@@ -1782,7 +1773,8 @@ Twilight⭐ = Rp. 125.658
 Jam Operasional : Buka 24 Jam
 Estimasi proses : 1 - 10 menit
 NB : Proses maksimal 24 jam
-*HARGA SEWAKTU WAKTU BERUBAH*
+*HARGA SEWAKTU WAKTU BERUBAH*`)
+             break
 `                          
                buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'PEMBAYARAN'},type:1},{buttonId: `${prefix}format2`,buttonText:{displayText: 'FORMAT ORDER'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
 
