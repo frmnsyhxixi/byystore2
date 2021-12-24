@@ -5747,13 +5747,9 @@ case 'linkgc':
 }
                break
         case 'd' :
-                   if (!isGroup)return reply(mess.only.group)
-              if (!isOwner) return reply(mess.only.owner)
-              if (args.length < 1) return reply(`PESANAN SUDAH SELESAII`)
-        case 'p' :
-                   if (!isGroup)return reply(mess.only.group)
-              if (!isOwner) return reply(mess.only.owner)
-              if (args.length < 1) return reply(`PESANAN MASIH DALAM PROSES`)
+                   if (!isGroup && isOwner)return reply(`PESANAN SUDAH SELESAII`)
+        case 'pr' :
+                   if (!isGroup && isOwner)return reply(`PESANAN MASIH DALAM PROSES`)
         case 'del':
         case 'delete': // MR.CYSER
                try {
