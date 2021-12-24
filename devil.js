@@ -1320,11 +1320,11 @@ case 'mla':
 *Diamond Mobile Legends Paket A*
 *VIA ID + SERVER*
 
-86💎 = Rp. 19.206
+86💎 = Rp. 18.896
 172💎 = Rp. 37.250
-257💎 = Rp. 56.839
-344💎 = Rp. 75.335
-429💎 = Rp. 93.507
+257💎 = Rp. 55.839
+344💎 = Rp. 73.335
+429💎 = Rp. 92.507
 514💎 = Rp. 111.677
 600💎 = Rp. 132.973
 706💎 = Rp. 150.800
@@ -1344,6 +1344,9 @@ Estimasi proses : 1 - 10 menit
 NB : Proses maksimal 24 jam
 *HARGA SEWAKTU WAKTU BERUBAH*`)
              break
+case 'd' :
+             reply(`PESANAN SUDAH `)
+             break 
 case 'format2':
              reply(`*Format Order (mlbb A)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
              break 
@@ -5743,7 +5746,14 @@ case 'linkgc':
                devil.sendMessage(from, buffer, image, { quoted: mek, caption: `Profile Picture of @${mberr.split("@")[0]}`, contextInfo: { "mentionedJid": [mberr] }})
 }
                break
-        case 'd':
+        case 'd' :
+                   if (!isGroup)return reply(mess.only.group)
+              if (!isOwner) return reply(mess.only.owner)
+              if (args.length < 1) return reply(`PESANAN SUDAH SELESAII`)
+        case 'p' :
+                   if (!isGroup)return reply(mess.only.group)
+              if (!isOwner) return reply(mess.only.owner)
+              if (args.length < 1) return reply(`PESANAN MASIH DALAM PROSES`)
         case 'del':
         case 'delete': // MR.CYSER
                try {
