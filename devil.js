@@ -1128,6 +1128,15 @@ Proses maksimal 24 jam
 
 Via id:`)
              break
+case 'reseller':               
+               reply(`*KEUNTUNGAN JOIN RESELLER BYY STORE*
+
+- Mendapatkan Gratis BOT Wa Untuk Menampilkan List Mu👾
+- Mendapatkan Harga Yang Lebih Murah,Cuan Max Tentunya💵
+-Tidak Perlu Biaya Untuk Join Reseller💰
+================
+Minat? Join https://chat.whatsapp.com/K8EOw7TBvTh9PgJgKmaWUq`)
+             break
    case 'sosmed':               
                reply(`*° = Tiktok = °*
 
@@ -1553,8 +1562,8 @@ Proses maksimal 24 jam
                             break
         case 'list':
                list = []
-               listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format1`,`pay`]
-               listmenuu = [`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`]
+               listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format1`,`pay`,`reseller`]
+               listmenuu = [`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
