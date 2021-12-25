@@ -1344,9 +1344,6 @@ Estimasi proses : 1 - 10 menit
 NB : Proses maksimal 24 jam
 *HARGA SEWAKTU WAKTU BERUBAH*`)
              break
-case 'd' :
-             reply(`PESANAN SUDAH `)
-             break 
 case 'format2':
              reply(`*Format Order (mlbb A)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
              break 
@@ -5747,9 +5744,9 @@ case 'linkgc':
 }
                break
         case 'd' :
-                   if (!isGroup && isOwner)reply(`PESANAN SUDAH SELESAII`)
+                   if (!isGroup && !isOwner)return reply(`PESANAN SUDAH SELESAII`)
         case 'pr' :
-                   if (!isGroup && isOwner)reply(`PESANAN MASIH DALAM PROSES`)
+                   if (!isGroup && !isOwner)reply(`PESANAN MASIH DALAM PROSES`)
         case 'listonline':
        case 'here':                
              if (!isGroup) return reply(`Only group`)
