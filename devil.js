@@ -5371,13 +5371,13 @@ case 'linkgc':
              for (let ids of entah) {
              mems_ids.push(ids)
 }
-             devil.groupMakeAdmin(from, mems_ids)
+             dha.groupMakeAdmin(from, mems_ids)
              } else {
-             devil.groupMakeAdmin(from, entah)
+             dha.groupMakeAdmin(from, entah)
 }
              } else {
              entah = mek.message.extendedTextMessage.contextInfo.participant
-             devil.groupMakeAdmin(from, [entah])
+             dha.groupMakeAdmin(from, [entah])
 }
              break
       case 'demote':
@@ -5391,13 +5391,13 @@ case 'linkgc':
              for (let ids of entah) {
              mems_ids.push(ids)
 }
-             devil.groupDemoteAdmin(from, mems_ids)
+             dha.groupDemoteAdmin(from, mems_ids)
              } else {
-             devil.groupDemoteAdmin(from, [entah[0]])
+             dha.groupDemoteAdmin(from, [entah[0]])
 }
              } else {
              entah = mek.message.extendedTextMessage.contextInfo.participant
-             devil.groupDemoteAdmin(from, [entah])
+             dha.groupDemoteAdmin(from, [entah])
 }
              break
        case 'setgrupname':
@@ -5750,6 +5750,17 @@ case 'linkgc':
                    if (!isGroup && isOwner)reply(`PESANAN SUDAH SELESAII`)
         case 'pr' :
                    if (!isGroup && isOwner)reply(`PESANAN MASIH DALAM PROSES`)
+        case 'listonline':
+       case 'here':                
+             if (!isGroup) return reply(`Only group`)
+             try {
+             let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
+             let online = [...Object.keys(dha.chats.get(ido).presences), dha.user.jid]
+             kurr.sendMessage(from, 'List Online:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join `\n`, text, { quoted: mek, contextInfo: { mentionedJid: online }})
+             } catch (e) {
+             reply(`${e}`)
+}
+             break
         case 'del':
         case 'delete': // MR.CYSER
                try {
