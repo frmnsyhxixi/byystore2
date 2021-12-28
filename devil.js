@@ -1088,10 +1088,12 @@ Wa.me/6289507948843`)
 4. Proses
 5. Done`)
              break
-case 's':
-         if(!isGroup && !isGroupAdmins)return reply(`PESANAN SUDAH SELESAI SILAHKAN DICEK`)
+case 'se':
+         if(!isGroup && !isGroupAdmins)return reply(`PESANAN SUDAH SELESAI SILAHKAN DICEK || *TERIMAKASIH SUDAH ORDER*🥰`)
+         break
 case 'w' :
-        if(!isGroup && !isGroupAdmins)return reply(`PESANAN SEDANG DIPROSES MOHON DITUNGGU`)
+        if(!isGroup && !isGroupAdmins)return reply(`PESANAN SEDANG DIPROSES MOHON DITUNGGU || *SABAR YA BWANG PROSES DROP*`)
+        break
 case 'tf':               
         reply(`https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTcyNzE0MTU1NDc3NTcz?story_media_id=2737188496887082105_15306570637&utm_medium=share_sheet`)
              break
