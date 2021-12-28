@@ -1088,6 +1088,9 @@ Wa.me/6289507948843`)
 4. Proses
 5. Done`)
              break
+case 'tf':               
+        reply(`https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTcyNzE0MTU1NDc3NTcz?story_media_id=2737188496887082105_15306570637&utm_medium=share_sheet`)
+             break
    case 'rekber':               
          reply(`*Jasa Rekber All Akun Game Online*
 
@@ -1562,8 +1565,8 @@ Proses maksimal 24 jam
                             break
         case 'list':
                list = []
-               listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format1`,`pay`,`reseller`]
-               listmenuu = [`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`JOIN RESELLER`]
+               listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
+               listmenuu = [`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
