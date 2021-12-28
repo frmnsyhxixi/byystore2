@@ -1495,80 +1495,93 @@ _*CANDY SAUSAGE MAN*_
 Proses maksimal 24 jam
 *HARGA SEWAKTU WAKTU BERUBAH*`)
              break
-        case 'ytprem':
-        case 'yt':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`─ *YT PREM* ─
-               
-•1 BULAN : Rp 1.000
-•AKUN YT ADMIN : Rp 3.000 (Bisa invite 5 orang)
 
- *Stok Selalu READY*
-`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'PEMBAYARAN'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+//NYEWOOO BOTTTT ANJJJ
 
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
+case 'daftarmenu':
+               list = []
+               listmenu = [`mlbba`,`mlbbb`,`formatt`,`caraorder`,`payment`]
+               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`]
+               nombor = 1
+               startnum = 0
+               for (let x of listmenu) {
+               const yy = {title: 'silahkan pilih menunya ' + nombor++,
+                    rows: [
+                       {
+                        title: `${listmenuu[startnum++]}`,
+                        description: ``,
+                        rowId: `${prefix}${x}`
+                      }
+                    ]
+                   }
+                        list.push(yy)
+           }
+               listmsg(from, `${ucapanWaktu}`,  `Hai kak......\n*${pushname}*\nKlik Disini`, list)
+               break
+case 'mlbba':               
+        reply(`*LIST DM ML PAKET A*
 
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `© Byy Store
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
-        case 'otp':
-        case 'nokos':               
-               parseMention = (text = '') => {
-               return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
-               totalChat = await devil.chats.all()
-               groups = devil.chats.array.filter(v => v.jid.endsWith('g.us'))
-               privat = devil.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-               total = math(`${groups.length}*${privat.length}`)
-               timestampe = speed();
-               latensie = speed() - timestampe             
-               menu =`─ *OTP / NOKOS* ─
-               
- *OTP +62 /NOKOS :* Rp 1.000/OTP
+*PROSES 1-10 MENIT MAKSIMAL 24 JAM*
+
+86       💎 Rp. 18.200
+172     💎 Rp. 36.400
+257     💎 Rp. 54.600
+344     💎 Rp. 72.800
+429     💎 Rp. 91.000
+514     💎 Rp. 109.200
+601     💎 Rp. 127.400
+706     💎 Rp. 145.600
+878     💎 Rp. 182.000
+963     💎 Rp. 200.300
+1.050  💎 Rp. 218.400
+1.220  💎 Rp. 254.800
+1.412  💎 Rp. 291.200
+2.195  💎 Rp. 432.900
+
+SL ⭐ / TL Rp. 110.760
+SL Plus Rp. 273.000`)
+             break
+case 'mlbbb':               
+        reply(`*LIST MLBB PAKET B*
+
+PROSES 1-10 MENIT
+
+39 💎 = Rp 8.316
+65 💎 = Rp 13.860
+92 💎 = Rp 19.371
+133 💎 = Rp 27.720
+266 💎 = Rp 55.440
+400 💎 = Rp 83.160
+534 💎 = Rp 110.880
+670 💎 = Rp 138.600
+1342 💎 = Rp 277.233
+2700 💎 = Rp 554.400
+4150 💎 = Rp 831.600
+7050 💎 = Rp 1.386.000
+
+*BERLAKU KELIPATAN*`)
+             break
+case 'formatt':               
+        reply(`📍FORMAT MOBILE LEGEND
  
-• Kartu FRESH OTP
-• Provider Indosat
-• STOK BANYAK *Ready Selalu*            `                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '↩️ BACK TO MENU'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'PEMBAYARAN'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ADMIN👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+Nick :
+Id+server :
+Order :
+Dm sebelumnya :
 
-               imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
+📌CATATAN 
+*Semua kesalahan nick,id bukan tanggung jawab kami jadi perhatikan baik²*`)
+             break
+case 'payment':               
+        reply(`*PAYMENT*
 
-               buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: `© Byy Store
-`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-            
-               prep = await devil.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
-							title: `Hai ${pushname} 👋`,
-							body: `${tanggal}`,
-							previewType: 1,
-							thumbnailUrl: "https://ibb.co/FzLx165/Nakano.jpg",
-							thumbnail: fs.readFileSync('./media/ganteng.jpg'), }, forwardingScore:508, isForwarded:true, mentionedJid:[Tag + '@s.whatsapp.net', senderr]}})
-                            devil.relayWAMessage(prep)
-                            break
+*OVO*      = 081287611030
+*GOPAY* = 081287611030
+*DANA* = 081287611030
+*SHOPEEPAY* = 081287611030`)
+             break
+
+        
         case 'list':
                list = []
                listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
