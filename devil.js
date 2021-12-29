@@ -1090,7 +1090,22 @@ Wa.me/6289507948843`)
 3. Kirim Id Server/Data
 4. Proses
 5. Done`)
+
              break
+case 'rdp':               
+        reply(`List Rdp Byy Storee!
+
+2 GB | 1 vCpu : 25k
+4 GB | 2 vCpu : 45K
+8 GB | 4 vCpu : 75K
+
+List Vps!
+
+1 GB | 1 vCpu : 15K
+Dll..
+
+Note : free peng install an google chrome!`)
+break
 case 'se':
          if(!isGroup && !isGroupAdmins)return reply(`PESANAN SUDAH SELESAI SILAHKAN DICEK || *TERIMAKASIH SUDAH ORDER*🥰`)
          break
@@ -1599,8 +1614,8 @@ PROSES 20 menit-1 JAM MAXIMAL 24 JAM
         
         case 'list':
                list = []
-               listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
-               listmenuu = [`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
+               listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
+               listmenuu = [`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
