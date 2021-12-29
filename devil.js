@@ -1503,8 +1503,8 @@ Proses maksimal 24 jam
 
 case 'daftarmenu':
                list = []
-               listmenu = [`mlbba`,`mlbbb`,`formatt`,`caraorder`,`payment`]
-               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`]
+               listmenu = [`mlbba`,`mlbbb`,`sls`,`formatt`,`caraorder`,`payment`,`botwa`]
+               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`STARLIGHT SLOW`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`,`IKLAN`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -1581,7 +1581,19 @@ case 'payment':
 *OVO*      = 081287611030
 *GOPAY* = 081287611030
 *DANA* = 081287611030
-*SHOPEEPAY* = 081287611030`)
+*SHOPEEPAY* = 081287611030
+BCA : 7600238706 A/N ULFI RULLIANDI`)
+             break
+case 'sls':               
+        reply(`*SL SLOW 90.000*
+
+*STARLIGH PLUS SLOW 190.000*
+
+MINIMAL 2 BUYER BARU PROSES !!!
+PROSES 20 menit-1 JAM MAXIMAL 24 JAM
+
+
+*PAYMENT BCA OR DANA ONLY*`)
              break
 
         
