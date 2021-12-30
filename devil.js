@@ -1303,27 +1303,22 @@ Melanggar tidak dapat garansi!
 _*Diamond Free fire 🔥*_
 Via ID || 1-10 Menit (Max 24 Jam)
 
-50💎 Rp 7.670	
-70💎 Rp 10.055
-100💎 Rp 15.240
-140💎 Rp 20.240
-210💎 Rp 29.500
-280💎 Rp 38.950
-355💎 Rp 48.850
-425💎 Rp 58.242
-500💎 Rp 69.286
-720💎 Rp 95.740
-860💎 Rp 115.355
-930💎 Rp 113.125
-1075💎 Rp 141.225
-1215💎 Rp 157.690
-1450💎 Rp 190.500
-2000💎 Rp 254.300
-4000💎 Rp 454.600
+50💎 Rp 6.900
+70💎 Rp 9.400
+100💎 Rp 18.550
+140💎 Rp 26.750
+210💎 Rp 27.900
+280💎 Rp 37.000
+355💎 Rp 48.000
+425💎 Rp 56.430
+500💎 Rp 70.500
+720💎 Rp 95.200
+860💎 Rp 114.412
+1000💎 Rp 130.000
 BERLAKU KELIPATAN
 
-Membership Mingguan : Rp 27.660
-Membership Bulanan : Rp 138.675
+Membership Mingguan : Rp 28.500
+Membership Bulanan : Rp 142.500
 
 *FORMAT ORDER*
 ID :
@@ -1341,6 +1336,20 @@ Nominal Order :
 *KIRIM SS PAYMENT/PEMBAYARAN*
 
 Terimakasih Semoga Mengerti ^_^`)
+             break
+case 'promo':               
+        reply(`*Promo Diamond Mobile Legends Paket A*
+
+172💎 = 35.700
+257💎 = 53.900
+344💎 = 71.500
+429💎 = 89.500
+514💎  = 107.400
+706💎 = 144.900
+1412💎 = 286.000
+
+*NOTE* : INI PROSESNYA SEMI`)
+
              break
 case 'mla':
              reply(`_*ByyStore BOT*_
@@ -1614,8 +1623,8 @@ PROSES 20 menit-1 JAM MAXIMAL 24 JAM
         
         case 'list':
                list = []
-               listmenu = [`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
-               listmenuu = [`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
+               listmenu = [`promo`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
+               listmenuu = [`PROMO PLES SEL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
