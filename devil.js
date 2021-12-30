@@ -5795,10 +5795,6 @@ case 'linkgc':
                devil.sendMessage(from, buffer, image, { quoted: mek, caption: `Profile Picture of @${mberr.split("@")[0]}`, contextInfo: { "mentionedJid": [mberr] }})
 }
                break
-        case 'd' :
-                   if (!isGroup && !isOwner)return reply(`PESANAN SUDAH SELESAII`)
-        case 'pr' :
-                   if (!isGroup && !isOwner)reply(`PESANAN MASIH DALAM PROSES`)
         case 'listonline':
        case 'here':                
              if (!isGroup) return reply(`Only group`)
