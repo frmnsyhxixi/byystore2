@@ -1345,7 +1345,7 @@ case'promo2':
         reply(`KOSONG KAYAK HATIMU`)
 
              break
-case'promo2':               
+case'promosl':               
         reply(`PROMO SL JANUARI*
 HARGA BIASA : 95.000
 HARGA RESS : 92.000
