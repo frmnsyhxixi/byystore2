@@ -1639,8 +1639,8 @@ case 'dah':
               if (!isGroupAdmins) return reply(mess.only.admin)
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-              if (args.length == 0)  return reply(`Pesanan Anda Sudah Selesai Silahkan Dicek
-					TERIMAKASIH SUDAH ORDER D ${groupName}`)
+              if (args.length == 0)  return reply(`Pesanan Anda Sudah Selesai Silahkan Di Cek
+TERIMAKASIH SUDAH ORDER Di ${groupName}`)
 					break
 						
 
@@ -5352,7 +5352,7 @@ case 'getvn':
              const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(devil).replace('quotedM','m')).message.extendedTextMessage.contextInfo : devil
              bc100 = await devil.downloadMediaMessage(encmedia)
              for (let _ of anu100) {
-             devil.sendMessage(_.jid, bc100, image, {quoted: freply, caption: `*「 SIARAN SHOP 」*\n\n${body.slice(4)}`})
+             devil.sendMessage(_.jid, bc100, image, {quoted: freply, caption: `*BROADCAST*\n\n${body.slice(4)}`})
 }
              reply('Suksess broadcast')
              } else {
@@ -5361,8 +5361,8 @@ case 'getvn':
 			{"contentText": `*「 SIARAN SHOP 」*\n\n${body.slice(4)}`,
 			"footerText": '*© Byy Store*',
 			"buttons": [
-			{"buttonId": `#owner`,
-			"buttonText": {"displayText": "ADMIN👤"
+			{"buttonId": `${prefix}owner`,
+			"buttonText": {"displayText": "OKE KAK"
 			},"type": "RESPONSE"}
 			], "headerType": 'LOCATION',
 			locationMessage: { degreesLatitude: '',
