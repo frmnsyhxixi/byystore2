@@ -1362,16 +1362,6 @@ FREE FIRE - Via ID
 Ml Via ID Server
 338💎 : Rp 62.000
 676💎 : Rp 123.000
-Ples Sel
-
-FREE FIRE - Via ID
-710💎 : Rp 62.500
-1420💎 : Rp 125.000
-
-
-Ml Via ID Server
-338💎 : Rp 62.000
-676💎 : Rp 123.000
 
 *NOTE* : Sewaktu Waktu Dapet Berhentii`)
 
