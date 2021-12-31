@@ -1675,7 +1675,7 @@ PROSES 20 menit-1 JAM MAXIMAL 24 JAM
         case 'list':
                list = []
                listmenu = [`promo`,`promo2`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
-               listmenuu = [`PROMO PLES SEL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
+               listmenuu = [`PROMO PLES SEL`,`PROMO PLES SEL 2`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
