@@ -1640,7 +1640,7 @@ case 'dah':
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
               if (args.length == 0)  return reply(`Pesanan Anda Sudah Selesai Silahkan Dicek
-					TERIMAKASIH SUDAH ORDER DI ${groupName}`)
+					TERIMAKASIH SUDAH ORDER D ${groupName}`)
 					break
 						
 
