@@ -1559,7 +1559,7 @@ case 'addrespon':
 case 'daftarmenu':
                list = []
                listmenu = [`mlbba`,`mlbbb`,`ffsasa`,`sls`,`formatt`,`caraorder`,`payment`,`botwa`]
-               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`FF SYASHA`,`STARLIGHT SLOW`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`,`IKLAN`]
+               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`LIST FREE FIRE`,`STARLIGHT SLOW`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`,`IKLAN`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
