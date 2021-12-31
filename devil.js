@@ -1106,12 +1106,6 @@ Dll..
 
 Note : free peng install an google chrome!`)
 break
-case 'se':
-         if(!isGroup && !isGroupAdmins)return reply(`PESANAN SUDAH SELESAI SILAHKAN DICEK || *TERIMAKASIH SUDAH ORDER*🥰`)
-         break
-case 'w' :
-        if(!isGroup && !isGroupAdmins)return reply(`PESANAN SEDANG DIPROSES MOHON DITUNGGU || *SABAR YA BWANG PROSES DROP*`)
-        break
 case 'tf':               
         reply(`https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTcyNzE0MTU1NDc3NTcz?story_media_id=2737188496887082105_15306570637&utm_medium=share_sheet`)
              break
@@ -1635,15 +1629,17 @@ case 'buka':
 						reply(`TERIMAKASIH YANG SUDAH ORDER DI ${groupName} SEMOGA TETAP DILIMPAHKAN REJEKI YANG CUKUP 😇`)
 						devil.groupSettingChange(from, GroupSettingChange.messageSend, true)
 					break
-case 'wet'
-    if (!isGroupAdmins) return reply(mess.only.admin)
+case 'wet':
+              if (!isGroupAdmins) return reply(mess.only.admin)
               if (!isGroup) return reply(mess.only.group)
-					reply(`Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak`)
+              if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+              if (args.length == 0)  return reply(`Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak`)
 					break
-case 'dah'
-      if (!isGroupAdmins) return reply(mess.only.admin)
+case 'dah':
+              if (!isGroupAdmins) return reply(mess.only.admin)
               if (!isGroup) return reply(mess.only.group)
-					reply(`Pesanan Anda Sudah Selesai Silahkan DICEK
+              if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+              if (args.length == 0)  return reply(`Pesanan Anda Sudah Selesai Silahkan Dicek
 					TERIMAKASIH SUDAH ORDER DI ${groupName}`)
 					break
 						
