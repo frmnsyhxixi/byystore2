@@ -1346,12 +1346,13 @@ case'promo2':
 
              break
 case 'promosl'
-             reply (`*PROMO SL JANUARI*
+             reply(`*PROMO SL JANUARI*
 HARGA BIASA : 95.000
 HARGA RESS : 92.000
 
 *NOTE* : TANYAKAN STOCK SEBELUM ORDER`)
-break
+
+                  break
 case 'mla':
              reply(`_*ByyStore BOT*_
 *Diamond Mobile Legends Paket A*
