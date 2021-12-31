@@ -3207,18 +3207,13 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://i.ibb.co/1GQNYh6/error.png'
-              teksnya = `*── 「 PRICE LIST 」 ──*
-
-*SEWA BOT WA*
-FITUR:ANTILINK,WELCOME,ADD,KICK,DEMOTE,DAN MASIH BANYAK LAGI
-
-HARGA PERMANEN:~15k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
+              gopeynya = 'https://ibb.co/p3KCPQp'
+              teksnya = `AYO BANG SEWA BANGGGG`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://telegra.ph/file/827de2ba31e1da88a2a53.jpg'
+gopeynya = 'https://ibb.co/p3KCPQp'
 teksnya = ` *「PAYMENT」*
 • GOPAY : SCAN QRIS
 • QRIS : SCAN QRIS
