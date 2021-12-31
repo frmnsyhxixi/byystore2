@@ -1305,11 +1305,11 @@ Via ID || 1-10 Menit (Max 24 Jam)
 
 50💎 Rp 6.900
 70💎 Rp 9.400
-100💎 Rp 18.550
-140💎 Rp 26.750
+100💎 Rp 13.650
+140💎 Rp 18.750
 210💎 Rp 27.900
 280💎 Rp 37.000
-355💎 Rp 48.000
+355💎 Rp 47.000
 425💎 Rp 56.430
 500💎 Rp 70.500
 720💎 Rp 95.200
@@ -1317,8 +1317,8 @@ Via ID || 1-10 Menit (Max 24 Jam)
 1000💎 Rp 130.000
 BERLAKU KELIPATAN
 
-Membership Mingguan : Rp 28.500
-Membership Bulanan : Rp 142.500
+Membership Mingguan : Rp 27.500
+Membership Bulanan : Rp 137.500
 
 *FORMAT ORDER*
 ID :
@@ -1349,6 +1349,31 @@ case 'promo':
 1412💎 = 286.000
 
 *NOTE* : INI PROSESNYA SEMI`)
+
+             break
+case'promo2':               
+        reply(`Ples Sel
+
+FREE FIRE - Via ID
+710💎 : Rp 62.500
+1420💎 : Rp 125.000
+
+
+Ml Via ID Server
+338💎 : Rp 62.000
+676💎 : Rp 123.000
+Ples Sel
+
+FREE FIRE - Via ID
+710💎 : Rp 62.500
+1420💎 : Rp 125.000
+
+
+Ml Via ID Server
+338💎 : Rp 62.000
+676💎 : Rp 123.000
+
+*NOTE* : Sewaktu Waktu Dapet Berhentii`)
 
              break
 case 'mla':
@@ -1522,6 +1547,32 @@ _*CANDY SAUSAGE MAN*_
 Proses maksimal 24 jam
 *HARGA SEWAKTU WAKTU BERUBAH*`)
              break
+case 'delrespon':
+			if (!isOwner && !isGroupAdmins && !mek.key.fromMe) return sticOwner(from)
+				if (args.length < 1) return reply(`Penggunaan ${prefix}delrespon hai`)
+				if (!checkCommands(body.slice(11), commandsDB)) return reply(`Ga ada di database`)
+                deleteCommands(body.slice(11), commandsDB)
+				reply(`Sukses menghapus respon ${body.slice(11)}`)
+				break
+				case 'listrespon':
+              if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+teks = `\`\`\`「 LIST RESPON  」\`\`\`\n\n`
+for (let i = 0; i < commandsDB.length; i ++){
+teks += `❏ *Tanya:* ${commandsDB[i].pesan}\n`
+teks += `❏ *Balasan:* ${commandsDB[i].balasan}\n`
+teks += `❏ *Creator:* ${commandsDB[i].creator}\n\n`
+}
+reply(teks)
+break
+case 'addrespon':
+			if (!isOwner && !isGroupAdmins && !mek.key.fromMe)
+			return sticOwner(from)
+				if (args.length < 1) return reply(`Penggunaan ${prefix}addrespon hai|hai juga`)
+				argz = arg.split('|')
+				if (checkCommands(argz[0], commandsDB) === true) return reply(`Udah ada`)
+				addCommands(argz[0], argz[1], sender, commandsDB)
+				reply(`Sukses menambahkan respon ${argz[0]}`)
+				break
 
 //NYEWOOO BOTTTT ANJJJ
 
@@ -1623,7 +1674,7 @@ PROSES 20 menit-1 JAM MAXIMAL 24 JAM
         
         case 'list':
                list = []
-               listmenu = [`promo`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
+               listmenu = [`promo`,`promo2`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
                listmenuu = [`PROMO PLES SEL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
