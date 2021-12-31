@@ -1636,13 +1636,13 @@ case 'buka':
 						devil.groupSettingChange(from, GroupSettingChange.messageSend, true)
 					break
 case 'wet'
-    if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return sticAdmin(from)
+    if (!isGroupAdmins) return reply(mess.only.admin)
+              if (!isGroup) return reply(mess.only.group)
 					reply(`Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak`)
 					break
 case 'dah'
-      if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return sticAdmin(from)
+      if (!isGroupAdmins) return reply(mess.only.admin)
+              if (!isGroup) return reply(mess.only.group)
 					reply(`Pesanan Anda Sudah Selesai Silahkan DICEK
 					TERIMAKASIH SUDAH ORDER DI ${groupName}`)
 					break
