@@ -1351,6 +1351,7 @@ HARGA BIASA : 95.000
 HARGA RESS : 92.000
 
 *NOTE* : TANYAKAN STOCK SEBELUM ORDER`)
+break
 case 'mla':
              reply(`_*ByyStore BOT*_
 *Diamond Mobile Legends Paket A*
