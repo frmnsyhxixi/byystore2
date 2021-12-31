@@ -1338,24 +1338,19 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`*Promo Diamond Mobile Legends Paket A*
-
-172💎 = 35.700
-257💎 = 53.900
-344💎 = 71.500
-429💎 = 89.500
-514💎  = 107.400
-706💎 = 144.900
-1412💎 = 286.000
-
-*NOTE* : INI PROSESNYA SEMI`)
+        reply(`KOSONG KAYAK HATIMU`)
 
              break
 case'promo2':               
-        reply(`Via Id Server
-192💎 = 37.250`)
+        reply(`KOSONG KAYAK HATIMU`)
 
              break
+case 'promosl'
+             reply (`*PROMO SL JANUARI*
+HARGA BIASA : 95.000
+HARGA RESS : 92.000
+
+*NOTE* : TANYAKAN STOCK SEBELUM ORDER`)
 case 'mla':
              reply(`_*ByyStore BOT*_
 *Diamond Mobile Legends Paket A*
@@ -1527,39 +1522,13 @@ _*CANDY SAUSAGE MAN*_
 Proses maksimal 24 jam
 *HARGA SEWAKTU WAKTU BERUBAH*`)
              break
-case 'delrespon':
-			if (!isOwner && !isGroupAdmins && !mek.key.fromMe) return sticOwner(from)
-				if (args.length < 1) return reply(`Penggunaan ${prefix}delrespon hai`)
-				if (!checkCommands(body.slice(11), commandsDB)) return reply(`Ga ada di database`)
-                deleteCommands(body.slice(11), commandsDB)
-				reply(`Sukses menghapus respon ${body.slice(11)}`)
-				break
-				case 'listrespon':
-              if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-teks = `\`\`\`「 LIST RESPON  」\`\`\`\n\n`
-for (let i = 0; i < commandsDB.length; i ++){
-teks += `❏ *Tanya:* ${commandsDB[i].pesan}\n`
-teks += `❏ *Balasan:* ${commandsDB[i].balasan}\n`
-teks += `❏ *Creator:* ${commandsDB[i].creator}\n\n`
-}
-reply(teks)
-break
-case 'addrespon':
-			if (!isOwner && !isGroupAdmins && !mek.key.fromMe)
-			return sticOwner(from)
-				if (args.length < 1) return reply(`Penggunaan ${prefix}addrespon hai|hai juga`)
-				argz = arg.split('|')
-				if (checkCommands(argz[0], commandsDB) === true) return reply(`Udah ada`)
-				addCommands(argz[0], argz[1], sender, commandsDB)
-				reply(`Sukses menambahkan respon ${argz[0]}`)
-				break
 
 //NYEWOOO BOTTTT ANJJJ
 
 case 'daftarmenu':
                list = []
-               listmenu = [`mlbba`,`mlbbb`,`ffsasa`,`sls`,`formatt`,`caraorder`,`payment`,`botwa`]
-               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`LIST FREE FIRE`,`STARLIGHT SLOW`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`,`IKLAN`]
+               listmenu = [`mlbba`,`mlbbb`,`sls`,`formatt`,`caraorder`,`payment`,`botwa`]
+               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`STARLIGHT SLOW`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`,`IKLAN`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -1619,33 +1588,6 @@ PROSES 1-10 MENIT
 
 *BERLAKU KELIPATAN*`)
              break
-case 'ffsasa':               
-        reply(`*LIST DM FF*
-*PROSES 1-5 MENIT*
-
-20         💎 Rp. 2.700
-50         💎 Rp. 6.600
-70         💎 Rp. 8.910
-140       💎 Rp.18.150
-210       💎 Rp. 27.225
-280       💎 Rp. 36.300
-355       💎 Rp. 45.375
-425       💎 Rp. 54.450
-495       💎 Rp. 63.525
-565       💎 Rp 72.600
-720       💎 Rp. 90.750
-1.075    💎 Rp. 136.125
-1.440    💎 Rp. 181.500
-2.000    💎 Rp. 247.500
-4.000    💎 Rp. 495.000
-7.290    💎 Rp. 907.500
-9290     💎 Rp. 1.155.000
-
-
-MEMBER MINGGUAN Rp. 27.500
-
-MEMBER BULANAN Rp. 137.500`)
-             break
 case 'formatt':               
         reply(`📍FORMAT MOBILE LEGEND
  
@@ -1681,7 +1623,7 @@ PROSES 20 menit-1 JAM MAXIMAL 24 JAM
         
         case 'list':
                list = []
-               listmenu = [`promo`,`promo2`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
+               listmenu = [`promo`,`promo2`,`promosl`,`PROMO SL`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
                listmenuu = [`PROMO PLES SEL`,`PROMO PLES SEL 2`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
