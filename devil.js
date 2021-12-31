@@ -1621,19 +1621,30 @@ PROSES 20 menit-1 JAM MAXIMAL 24 JAM
 
 *PAYMENT BCA OR DANA ONLY*`)
              break
-case 'opengc':
+case 'buka':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return sticAdmin(from)
                    if (!isBotGroupAdmins) return sticNotAdmin(from)
-                   reply(`OPEN GASS ORDERR 👊💎 ${groupName}`)
+                   reply(`${groupName} OPEN GASS ORDERR 👊`)
 						devil.groupSettingChange(from, GroupSettingChange.messageSend, false)
 						break
-						case 'closegc':
+						case 'tutup':
 						if (!isGroup) return reply(mess.only.group)
 						if (!isGroupAdmins) return sticAdmin(from)
                    if (!isBotGroupAdmins) return sticNotAdmin(from)
-						reply(`*TERIMAKASIH YANG SUDAH ORDER SEMOGA TETAP DILIMPAHKAN REJEKI YANG CUKUP* 😇 ${groupName}`)
+						reply(`TERIMAKASIH YANG SUDAH ORDER DI ${groupName} SEMOGA TETAP DILIMPAHKAN REJEKI YANG CUKUP 😇`)
 						devil.groupSettingChange(from, GroupSettingChange.messageSend, true)
+					break
+case 'wet'
+    if (!isGroup) return reply(mess.only.group)
+					if (!isGroupAdmins) return sticAdmin(from)
+					reply(`Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak`)
+					break
+case 'dah'
+      if (!isGroup) return reply(mess.only.group)
+					if (!isGroupAdmins) return sticAdmin(from)
+					reply(`Pesanan Anda Sudah Selesai Silahkan DICEK
+					TERIMAKASIH SUDAH ORDER DI ${groupName}`)
 					break
 						
 
