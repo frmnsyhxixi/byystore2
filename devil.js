@@ -1621,6 +1621,21 @@ PROSES 20 menit-1 JAM MAXIMAL 24 JAM
 
 *PAYMENT BCA OR DANA ONLY*`)
              break
+case 'opengc':
+					if (!isGroup) return reply(mess.only.group)
+					if (!isGroupAdmins) return sticAdmin(from)
+                   if (!isBotGroupAdmins) return sticNotAdmin(from)
+                   reply(`OPEN GASS ORDERR 👊💎 ${groupName}`)
+						devil.groupSettingChange(from, GroupSettingChange.messageSend, false)
+						break
+						case 'closegc':
+						if (!isGroup) return reply(mess.only.group)
+						if (!isGroupAdmins) return sticAdmin(from)
+                   if (!isBotGroupAdmins) return sticNotAdmin(from)
+						reply(`*TERIMAKASIH YANG SUDAH ORDER SEMOGA TETAP DILIMPAHKAN REJEKI YANG CUKUP* 😇 ${groupName}`)
+						devil.groupSettingChange(from, GroupSettingChange.messageSend, true)
+					break
+						
 
         
         case 'list':
