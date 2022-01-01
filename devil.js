@@ -3378,7 +3378,6 @@ case 'buttonown':
 //------------------< Sticker Cmd >-------------------
        case 'addcmd': 
        case 'setcmd':
-              if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
               if (isQuotedSticker) {
               if (!q) return reply(`Penggunaan : ${command} cmdnya dan tag stickernya`)
               var kodenya = mek.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
@@ -3389,7 +3388,6 @@ case 'buttonown':
 }
               break
        case 'delcmd':
-              if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
               if (!isQuotedSticker) return reply(`Penggunaan : ${command} tagsticker`)
               var kodenya = mek.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
             _scommand.splice(getCommandPosition(kodenya), 1)
