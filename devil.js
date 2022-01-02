@@ -1564,6 +1564,7 @@ case 'mlbba':
 SL ⭐ / TL Rp. 110.760
 SL Plus Rp. 273.000`)
              break
+
 case 'ffs':               
         reply(`*LIST DM FF*
 *PROSES 1-5 MENIT*
@@ -1590,6 +1591,26 @@ case 'ffs':
 MEMBER MINGGUAN Rp. 27.500
 
 MEMBER BULANAN Rp. 137.500`)
+             break
+case 'mlbbb':               
+        reply(`*LIST MLBB PAKET B*
+
+PROSES 1-10 MENIT
+
+39 💎 = Rp 8.316
+65 💎 = Rp 13.860
+92 💎 = Rp 19.371
+133 💎 = Rp 27.720
+266 💎 = Rp 55.440
+400 💎 = Rp 83.160
+534 💎 = Rp 110.880
+670 💎 = Rp 138.600
+1342 💎 = Rp 277.233
+2700 💎 = Rp 554.400
+4150 💎 = Rp 831.600
+7050 💎 = Rp 1.386.000
+
+*BERLAKU KELIPATAN*`)
              break
 case 'formatt':               
         reply(`📍FORMAT MOBILE LEGEND
