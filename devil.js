@@ -1523,8 +1523,8 @@ Proses maksimal 24 jam
 
 case 'daftarmenu':
                list = []
-               listmenu = [`mlbba`,`mlbbb`,`sls`,`formatt`,`caraorder`,`payment`,`botwa`]
-               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`STARLIGHT SLOW`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`,`IKLAN`]
+               listmenu = [`mlbba`,`mlbbb`,`sls`,`ffs`,`formatt`,`caraorder`,`payment`,`botwa`]
+               listmenuu = [`MLBB PAKET A`,`MLBB PAKET B`,`STARLIGHT SLOW`,`LIST FREE FIRE`,`FORMAT ORDER`,`CARA ORDER`,`METODE PEMBAYARAN`,`IKLAN`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -1564,25 +1564,32 @@ case 'mlbba':
 SL ⭐ / TL Rp. 110.760
 SL Plus Rp. 273.000`)
              break
-case 'mlbbb':               
-        reply(`*LIST MLBB PAKET B*
+case 'ffs':               
+        reply(`*LIST DM FF*
+*PROSES 1-5 MENIT*
 
-PROSES 1-10 MENIT
+20         💎 Rp. 2.700
+50         💎 Rp. 6.600
+70         💎 Rp. 8.910
+140       💎 Rp.18.150
+210       💎 Rp. 27.225
+280       💎 Rp. 36.300
+355       💎 Rp. 45.375
+425       💎 Rp. 54.450
+495       💎 Rp. 63.525
+565       💎 Rp 72.600
+720       💎 Rp. 90.750
+1.075    💎 Rp. 136.125
+1.440    💎 Rp. 181.500
+2.000    💎 Rp. 247.500
+4.000    💎 Rp. 495.000
+7.290    💎 Rp. 907.500
+9290     💎 Rp. 1.155.000
 
-39 💎 = Rp 8.316
-65 💎 = Rp 13.860
-92 💎 = Rp 19.371
-133 💎 = Rp 27.720
-266 💎 = Rp 55.440
-400 💎 = Rp 83.160
-534 💎 = Rp 110.880
-670 💎 = Rp 138.600
-1342 💎 = Rp 277.233
-2700 💎 = Rp 554.400
-4150 💎 = Rp 831.600
-7050 💎 = Rp 1.386.000
 
-*BERLAKU KELIPATAN*`)
+MEMBER MINGGUAN Rp. 27.500
+
+MEMBER BULANAN Rp. 137.500`)
              break
 case 'formatt':               
         reply(`📍FORMAT MOBILE LEGEND
