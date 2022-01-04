@@ -216,7 +216,6 @@ module.exports = devil = async (devil, mek) => {
 		let senderr = mek.key.fromMe ? devil.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
 		const totalchat = await devil.chats.all()
 		const groupMetadata = isGroup ? await devil.groupMetadata(from) : ''
-		const { addCommands, deleteCommands } = require('./lib/autoresp')
 		const groupName = isGroup ? groupMetadata.subject : ''
 		const groupId = isGroup ? groupMetadata.jid : ''
 		const groupMembers = isGroup ? groupMetadata.participants : ''
@@ -225,13 +224,6 @@ module.exports = devil = async (devil, mek) => {
 		const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 		const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 		const isGroupAdmins = groupAdmins.includes(sender) || false
-const checkCommands = (commands, _data) => {
-
-    let status = false
-
-    Object.keys(_data).forEach((i) => {
-        if (_data[i].pesan === commands) {
-            status = true
         const conts = mek.key.fromMe ? devil.user.jid : devil.contacts[sender] || { notify: jid.replace(/@.+/, '') }
         const pushname = mek.key.fromMe ? devil.user.name : conts.notify || conts.vname || conts.name || '-'
         const mentionByTag = type == "extendedTextMessage" && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.mentionedJid : []
@@ -5470,34 +5462,6 @@ case 'linkgc':
              devil.groupAdd(from, [entah])
 }
              break
-case 'delrespon':
-			if (!isGroupAdmins) return reply(mess.only.admin)
-             if (!isGroup) return reply(mess.only.group)
-				if (args.length < 1) return reply(`Penggunaan ${prefix}delrespon hai`)
-				if (!checkCommands(body.slice(11), commandsDB)) return reply(`Ga ada di database`)
-                deleteCommands(body.slice(11), commandsDB)
-				reply(`Sukses menghapus respon ${body.slice(11)}`)
-				break
-				case 'listrespon':
-              if (!isGroupAdmins) return reply(mess.only.admin)
-             if (!isGroup) return reply(mess.only.group)
-teks = `\`\`\`「 LIST RESPON  」\`\`\`\n\n`
-for (let i = 0; i < commandsDB.length; i ++){
-teks += `❏ *Tanya:* ${commandsDB[i].pesan}\n`
-teks += `❏ *Balasan:* ${commandsDB[i].balasan}\n`
-teks += `❏ *Creator:* ${commandsDB[i].creator}\n\n`
-}
-reply(teks)
-break
-case 'addrespon':
-			if (!isGroupAdmins) return reply(mess.only.admin)
-             if (!isGroup) return reply(mess.only.group)
-				if (args.length < 1) return reply(`Penggunaan ${prefix}addrespon hai|hai juga`)
-				argz = arg.split('|')
-				if (checkCommands(argz[0], commandsDB) === true) return reply(`Udah ada`)
-				addCommands(argz[0], argz[1], sender, commandsDB)
-				reply(`Sukses menambahkan respon ${argz[0]}`)
-				break
       case 'promote':
              reply('🗿')
              if (!isGroupAdmins) return reply(mess.only.admin)
