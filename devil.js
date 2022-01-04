@@ -216,7 +216,7 @@ module.exports = devil = async (devil, mek) => {
 		let senderr = mek.key.fromMe ? devil.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
 		const totalchat = await devil.chats.all()
 		const groupMetadata = isGroup ? await devil.groupMetadata(from) : ''
-		const { addCommands, checkCommands, deleteCommands } = require('./lib/autoresp')
+		const { addCommands, deleteCommands } = require('./lib/autoresp')
 		const groupName = isGroup ? groupMetadata.subject : ''
 		const groupId = isGroup ? groupMetadata.jid : ''
 		const groupMembers = isGroup ? groupMetadata.participants : ''
