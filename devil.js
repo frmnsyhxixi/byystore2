@@ -1674,8 +1674,13 @@ case 'ip':
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
               gopeynya = 'https://i.ibb.co/tPFPv6h/8ef5d70fe62b.jpg'
-              teksnya = `Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak 😴😪
-Waktu = ${waktu}`
+              teksnya = `Terimakasih Telah Memesan Di ${groupName} *Mohon Ditunggu Konfirmasi Masuk Dari Admin*😴
+
+Waktu = *WIB* : ${time}📌
+*WITA* : ${timeMak}📌
+*WIB* : ${timeJay}📌
+
+*NOTE* : SABAR MAS😅`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'dah':
@@ -1683,8 +1688,14 @@ case 'dah':
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
              gopeynya = 'https://i.ibb.co/Jnq5KGR/d33d9fa7f3de.jpg'
-              teksnya = `Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak
-Waktu = ${waktu}`
+              teksnya = `Pesanan *Sukses*🎉
+
+*Waktu Pesanan* :
+*WIB* : ${time}🎉
+*WITA* : ${timeMak}🎉
+*WIB* : ${timeJay}🎉
+
+Terimakasih Sudah Bertransaksi di ${groupName}🥳🥳`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 						
