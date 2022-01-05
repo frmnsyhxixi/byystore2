@@ -1344,13 +1344,17 @@ case 'promo':
 
              break
 case 'promo2':               
-        reply(`KOSONG KAYAK HATIMU`)
+        reply(`*OPEN PO Tanggal 8 Event Starwars*
+355💎 Rp : 69.890k
+
+*PO Skin Yve Elite*
+419💎 Rp : 56.565k`)
 
              break
 case 'promosl':               
         reply(`*PROMO SL JANUARI*
 HARGA BIASA : 95.000
-HARGA RESS : 92.000
+HARGA RESS : 90.000
 
 *NOTE* : TANYAKAN STOCK SEBELUM ORDER`)
 
@@ -1688,7 +1692,7 @@ TERIMAKASIH SUDAH ORDER DI ${groupName} 🥳🥳`
         case 'list':
                list = []
                listmenu = [`promo`,`promo2`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
-               listmenuu = [`PROMO PLES SEL`,`PROMO PLES SEL 2`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
+               listmenuu = [`PROMO PLES SEL`,`MLBB PO`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
