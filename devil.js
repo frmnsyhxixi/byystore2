@@ -1419,8 +1419,6 @@ ID :
 (Server) :
 NICK :
 ORDER DM :`)
-
-*HARGA RESS CHAT ADMIN STOCK TERBATAS*
              break
 case 'format3':
              reply(`*Format Order (mlbb B)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
