@@ -1074,11 +1074,11 @@ Via ID
 - Sewa 30 Hari 20k🤖
 ==================
 *Harga Beli Sc BOT*
-- Sc A 30k🤖
-- Sc B 35k 🤖
+- Sc A 40k🤖
+- Sc B 45k 🤖
 =================
 *Sepaket 2 SC*
-- Paket 2 50k🤖
+- Paket 2 75k🤖
 =================
 Wa.me/6289507948843`)
              break
@@ -3243,17 +3243,17 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://ibb.co/p3KCPQp'
+              gopeynya = 'https://i.ibb.co/znWb8t7/45eece37a8ac.jpg'
               teksnya = `AYO BANG SEWA BANGGGG`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://ibb.co/p3KCPQp'
+gopeynya = 'https://i.ibb.co/znWb8t7/45eece37a8ac.jpg'
 teksnya = ` *「PAYMENT」*
-• GOPAY : SCAN QRIS
-• QRIS : SCAN QRIS
-• DANA : SCAN QRIS
+• GOPAY : 089507948843
+• QRIS : 089507948843
+• DANA : 089507948843
 ━━━━━━━━━━━━━━━━━━━━`
         devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
