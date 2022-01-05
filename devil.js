@@ -969,7 +969,7 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *Promo* : List Promo 💎
 *Pormat* : Cek Format Beli ✅
 *Pay* : Nomer Untuk Tf💵
-*Botwa* : List Harga Bot Wa,Jasa Run Bot🚀
+*Sewabott* : List Harga Bot Wa,Jasa Run Bot🚀
 *Qriss* : Kode Qris📌
 *Caraorder* : Untuk Bertanya Cara Order🔍
 =======================
@@ -1669,21 +1669,25 @@ case 'wet':
               if (!isGroupAdmins) return reply(mess.only.admin)
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-              if (args.length == 0)  return reply(`Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak`)
-					break
+              gopeynya = 'https://i.ibb.co/znWb8t7/45eece37a8ac.jpg'
+              teksnya = `Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
 case 'dah':
               if (!isGroupAdmins) return reply(mess.only.admin)
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-              if (args.length == 0)  return reply(`Pesanan Anda Sudah Selesai Silahkan Di Cek
-TERIMAKASIH SUDAH ORDER Di ${groupName}`)
-					break
+             gopeynya = 'https://i.ibb.co/znWb8t7/45eece37a8ac.jpg'
+              teksnya = `Pesanan Anda Sudah Selesai Silahkan Di Cek
+TERIMAKASIH SUDAH ORDER DI ${groupName}`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
 						
 
         
         case 'list':
                list = []
-               listmenu = [`promo`,`promo2`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`botwa`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
+               listmenu = [`promo`,`promo2`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
                listmenuu = [`PROMO PLES SEL`,`PROMO PLES SEL 2`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
                nombor = 1
                startnum = 0
@@ -3242,7 +3246,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
               break
        case 'belipremium':
        case 'buypremium':
-       case 'sewabot':
+       case 'sewabott':
               gopeynya = 'https://i.ibb.co/znWb8t7/45eece37a8ac.jpg'
               teksnya = `*Harga Sewa Bot Byy Store*
 - Sewa 7 Hari 10k🤖
