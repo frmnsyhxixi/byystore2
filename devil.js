@@ -5638,7 +5638,7 @@ case 'linkgc':
 }
              break
       case 'hidetag':
-             if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
+             if (!isGroupAdmins && !mek.key.fromMe) return  reply(mess.only.admin)
              try {
              quotedText = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
              hideTag(from, `${quotedText}`)
