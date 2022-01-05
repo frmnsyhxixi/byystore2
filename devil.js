@@ -1345,10 +1345,10 @@ case 'promo':
              break
 case 'promo2':               
         reply(`*OPEN PO Tanggal 8 Event Starwars*
-355💎 Rp : 69.890k
+355💎 Rp : 69.890
 
 *PO Skin Yve Elite*
-419💎 Rp : 56.565k`)
+419💎 Rp : 56.565`)
 
              break
 case 'promosl':               
@@ -1398,15 +1398,15 @@ case 'format2':
 *Diamond Mobile Legends Paket B*
 *VIA ID + SERVER*
 
-39💎 [34+5] Rp. 7.938
-65 💎 [58+7 bonus] Rp. 13.230
-92 💎 [83+9 bonus] Rp. 18.491
-133 💎[120+13 bonus] Rp. 26.460
-266 💎[133x2]  = Rp. 52.920
-400 💎[360+40]  = Rp. 79.380
-534 💎[480+54]  = Rp. 105.840
-670 💎[600+70]  = Rp. 132.300
-1342 💎[1200+142]= Rp 264.632
+39💎 [34+5] Rp. 8.417
+65 💎 [58+7 bonus] Rp. 14.028
+92 💎 [83+9 bonus] Rp. 19.606
+133 💎[120+13 bonus] Rp. 28.056
+266 💎[133x2]  = Rp. 54.442
+400 💎[360+40]  = Rp. 84.168
+534 💎[480+54]  = Rp. 112.224
+670 💎[600+70]  = Rp. 140.280
+1342 💎[1200+142]= Rp 277.233
 
 BERLAKU KELIPATAN
 
@@ -1414,11 +1414,13 @@ Jam Operasional : Buka 24 Jam
 Estimasi proses : 1 - 15 menit
 NB : Proses maksimal 24 jam
 
-*FORMAT ORDER (mlbb)*
+*FORMAT ORDER (ML B)*
 ID :
 (Server) :
 NICK :
 ORDER DM :`)
+
+*HARGA RESS CHAT ADMIN STOCK TERBATAS*
              break
 case 'format3':
              reply(`*Format Order (mlbb B)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
