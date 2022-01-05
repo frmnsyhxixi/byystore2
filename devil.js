@@ -1671,12 +1671,13 @@ case 'buka':
 						reply(`TERIMAKASIH YANG SUDAH ORDER DI ${groupName} SEMOGA TETAP DILIMPAHKAN REJEKI YANG CUKUP 😇`)
 						devil.groupSettingChange(from, GroupSettingChange.messageSend, true)
 					break
-case 'wet':
+case 'ip':
               if (!isGroupAdmins) return reply(mess.only.admin)
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
               gopeynya = 'https://i.ibb.co/tPFPv6h/8ef5d70fe62b.jpg'
-              teksnya = `Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak 😴😪`
+              teksnya = `Terimakasih Telah Memesan Di ${groupName} Mohon Ditunggu Konfirmasi Masuk Dari Admin Yak 😴😪
+              ${waktu}`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'dah':
@@ -1685,7 +1686,8 @@ case 'dah':
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
              gopeynya = 'https://i.ibb.co/Jnq5KGR/d33d9fa7f3de.jpg'
               teksnya = `Pesanan Anda Sudah Selesai Silahkan Di Cek
-TERIMAKASIH SUDAH ORDER DI ${groupName} 🥳🥳`
+TERIMAKASIH SUDAH ORDER DI ${groupName} 🥳🥳
+${waktu}`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 						
