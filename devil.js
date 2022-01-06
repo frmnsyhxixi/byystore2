@@ -1340,7 +1340,15 @@ case 'promo':
 1412💎 = 287.000
 600💎 = 127.000
 
-*NOTE* : Tanyakan Stok Sebelum Order`)
+PROMO MLB
+133💎 = Rp 26.820
+400💎 = Rp 80.764
+534💎 = Rp 105.345
+670💎 = Rp 135.765
+1342💎 = Rp 266.456
+
+*NOTE* : Tanyakan Stok Sebelum Order
+Mau Cepet Beli Yang Fast`)
 
              break
 case 'promo2':               
