@@ -224,7 +224,6 @@ module.exports = devil = async (devil, mek) => {
 		const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 		const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 		const isGroupAdmins = groupAdmins.includes(sender) || false
-    const isAntiWame = isGroup ? antiwame.includes(from) : false
         const conts = mek.key.fromMe ? devil.user.jid : devil.contacts[sender] || { notify: jid.replace(/@.+/, '') }
         const pushname = mek.key.fromMe ? devil.user.name : conts.notify || conts.vname || conts.name || '-'
         const mentionByTag = type == "extendedTextMessage" && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.mentionedJid : []
