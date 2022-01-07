@@ -224,6 +224,7 @@ module.exports = devil = async (devil, mek) => {
 		const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 		const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 		const isGroupAdmins = groupAdmins.includes(sender) || false
+    const isAntiWame = isGroup ? antiwame.includes(from) : false
         const conts = mek.key.fromMe ? devil.user.jid : devil.contacts[sender] || { notify: jid.replace(/@.+/, '') }
         const pushname = mek.key.fromMe ? devil.user.name : conts.notify || conts.vname || conts.name || '-'
         const mentionByTag = type == "extendedTextMessage" && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.mentionedJid : []
@@ -6267,6 +6268,34 @@ case 'coffe':
               reply('Pilih enable atau disable!')
 }
               break
+       case 'antiwame':
+         if (!isGroup) return reply(mess.only.group)
+			if (!isGroupAdmins) return sticAdmin(from)
+			if (!isBotGroupAdmins) return sticNotAdmin(from)
+					if (args[0] === 'on') {
+						if (isAntiWame) return reply('Sudah Aktif Kak')
+						antilink.push(from)
+						fs.writeFileSync('./database/antiwame.json', JSON.stringify(antilink))
+						reply('Sukses mengaktifkan fitur antiwame')
+						kurr.sendMessage(from, `ALLERT!!! Group ini sudah di pasang anti wa.me\nJika Kamu Melanggar Maka Akan Saya Tendang`, text)
+					} else if (args[0] === 'off') {
+						if (!isAntiWame) return reply('Sudah Mati Kak')
+						var ini = antilink.indexOf(from)
+						antilink.splice(ini, 1)
+						fs.writeFileSync('./database/antiwame.json', JSON.stringify(antilink))
+						reply('Sukses menonaktifkan fitur antiwame')
+					} else if (!c){
+ anu =`Silahkan pilih salah satu\n\non: untuk mengaktifkan\noff: untuk menonaktifkan`
+punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'ON✔️'}, type: 1}]
+const btnasu = {
+    contentText: `${anu}`,
+    footerText: '*_©ByyStore*',
+    buttons: punten,
+    headerType: 1
+}
+await devil.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol})
+					}
+					break
        case 'antilink':
               if (!isGroupAdmins) return reply(mess.only.admin)
               if (!isGroup) return reply(mess.only.group)
