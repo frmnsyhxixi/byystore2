@@ -996,30 +996,36 @@ Contoh = .menu`
                             devil.relayWAMessage(prep)
                             break
  case 'mlsuperslow':               
-               reply(`*DIAMOND ML SUPER SLOW*
-  *PAKET A*
-*PROSES 7-10 Hari Max 14 HARI*
+               reply(`*PAKET A*
+*PROSES 7-10 Hari Max  21 HARI*
+===================
 
-735  💎 : Rp. 118.925
-980  💎 : Rp. 158.900
-1225💎 : Rp. 198.875
-1470💎 : Rp. 235.850
-1715💎 : Rp. 274.825
-1960💎 : Rp. 312.800
-2205💎 : Rp. 349.775
-2450💎 : Rp. 389.750
-2695💎 : Rp. 427.725
+840   💎= 136.400
+980   💎= 158.800
+1015 💎= 169.400
+1155 💎= 189.800
+1295 💎= 309.200
+1365 💎= 336.400
+1470 💎= 243.200
+1540 💎= 254.400
+1680 💎= 276.800
+1785 💎= 293.600
+1890 💎= 401.400
+2205 💎= 361.800
 
-*PAKET B*
-*PROSES 14-20 HARI*
+*RULES :*
 
-3185 💎 = Rp. 498.675
-3675 💎 = Rp. 579.625
-3884 💎 = Rp. 617.020
-4165 💎 = Rp. 660.575
-4655 💎 = Rp. 736.525
-4900 💎 = Rp. 780.500
-5390 💎 = Rp. 858.450`)
+									
+1. Dilarang untuk menyebarkan screenshoot, testi buyer Dll, jika ketahuan akan di kick dan di blacklist, serta dm buyer akan diminuskan 2x lipat.									
+2. Jika orderan kalian banyak harap disheet.									
+3. Orderan akan masuk dalam jumlah yang tertera pada denom ( Jadi masuk tidak bulat, melainkan sesuai dengan yang tertera)									
+4. Dilarang untuk menulis tanggal /memberi tahu diamond akan masuk ke buyer.									
+5. Jika dm tidak masuk, konfirmasi komplain hari senin mulai dr jam 20:00 sampai jam 21:00 WIB									
+6. Kesalahan id dan server ditanggung pembeli									
+7. Jika ingin laporan dm ga masuk, berikan bukti video dan foto pada hari yang sama, batas waktu memberikan video dan foto sampai hari selasa, jika dihari lain komplain akan di tolak									
+
+8. Kalau udah masuk list gabisa reffund
+9. Dilarang minta tutor`)
              break
         case 'pay':
         case 'pembayaran':               
