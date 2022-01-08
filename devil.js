@@ -1327,7 +1327,7 @@ ORDER DM :`)
 case 'format1':
              reply(`*CONTOH FORMAT :*
 
-Berikan Keterangan Order apa : (DM ML,FF,CANDY,PUBG,CASH PB,YT PREM DAN LAIN LAIN)
+Berikan Keterangan Order apa :
 ID : 
 SERVER : 
 Nominal Order :
@@ -1337,7 +1337,7 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`gd`)
+        reply(`355 = 71.250`)
 
              break
 case 'promo2':               
@@ -1357,19 +1357,26 @@ case 'mla':
 *Diamond Mobile Legends Paket A*
 *VIA ID + SERVER*
 
-86💎 = Rp. 18.896
-172💎 = Rp. 37.250
-257💎 = Rp. 55.839
-344💎 = Rp. 73.335
-429💎 = Rp. 92.507
-514💎 = Rp. 111.677
-600💎 = Rp. 132.973
-706💎 = Rp. 150.800
-878💎 = Rp. 187.900
-963💎 = Rp. 205.200
-1050💎 = Rp. 226.900
-1412💎 = Rp. 298.900
-2195💎 = Rp. 443.960
+86💎	Rp18,550
+172💎	Rp37,100
+257💎	Rp55,650
+344💎	Rp74,200
+429💎	Rp92,750
+514💎	Rp111,300
+601💎	Rp129,850
+706💎	Rp148,400
+878💎	Rp185,500
+962💎	Rp204,050
+1050💎	Rp222,600
+1220💎	Rp259,700
+1412💎	Rp296,800
+2194💎 Rp441,225
+3073💎	Rp626,725
+3688💎	Rp734,050
+4032💎	Rp808,250
+5532💎	Rp1.102,400
+6238💎 Rp1.250,800
+9288💎	Rp1.836,450
 
 BERLAKU KELIPATAN
 
