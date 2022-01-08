@@ -1337,38 +1337,17 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`172💎 = 36.000
-257💎 = 54.250
-344💎 = 71.890
-429💎 = 90.240
-514💎 = 108.000
-706💎 = 143.000
-1412💎 = 287.000
-600💎 = 127.000
-
-PROMO MLB
-133💎 = Rp 26.820
-400💎 = Rp 80.764
-534💎 = Rp 105.345
-670💎 = Rp 135.765
-1342💎 = Rp 266.456
-
-*NOTE* : Tanyakan Stok Sebelum Order
-Mau Cepet Beli Yang Fast`)
+        reply(`gd`)
 
              break
 case 'promo2':               
-        reply(`*OPEN PO Tanggal 8 Event Starwars*
-355💎 Rp : 69.890
-
-*PO Skin Yve Elite*
-419💎 Rp : 56.565`)
+        reply(`gd`)
 
              break
 case 'promosl':               
         reply(`*PROMO SL JANUARI*
 HARGA BIASA : 95.000
-HARGA RESS : 90.000
+HARGA RESS : 91.000
 
 *NOTE* : TANYAKAN STOCK SEBELUM ORDER`)
 
