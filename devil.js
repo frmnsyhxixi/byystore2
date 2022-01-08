@@ -1337,7 +1337,7 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`355 = 71.250`)
+        reply(`355💎 = 71.250`)
 
              break
 case 'promo2':               
