@@ -1029,21 +1029,22 @@ Contoh = .menu`
              break
         case 'pay':
         case 'pembayaran':               
-               reply(`Pembayaran 
+               gopeynya = 'https://telegra.ph/file/9d97bb617ddbd54459dc5.jpg'
+              teksnya = `Pembayaran 
 *Dana*: 089507948843
 *Ovo* : 089507948843
 *Gopay* : 089507948843
 *ShopeePay* : 089507948843
-*Indomaret*
+*Indomaret* : Minta Kode Ke Admin
 ====================
 Semua : A/N Robby Firmansyah
 Ovo : Siti Umayah
 ====================
-*HAPPY SHOPPING*`)
-             break
+*HAPPY SHOPPING*`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
         case 'mld':               
-               reply(`**MLBB FAST PAKET B*
-*STOCK READY✅*
+               reply(`*ML PAKET D*
 
 14💎3.200
 42💎9.000
@@ -1125,7 +1126,9 @@ Sistem
 4. Admin Meneruskan Data Akun Ke Pembeli Untuk Di Cek✅
 5. Bila Sudah Katakan Done✅
 ====================
-*Note* : Semisal Pembeli Tf Ke Dana Maka Akan Diteruskan Ke Dana Penjual 💵`)
+*Note* : Semisal Pembeli Tf Ke Dana Maka Akan Diteruskan Ke Dana Penjual 💵
+
+Untuk Fee Seikhlasnya Aja`)
              break
              
    case 'valorant':               
