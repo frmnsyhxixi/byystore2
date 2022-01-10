@@ -1029,7 +1029,7 @@ Contoh = .menu`
              break
         case 'pay':
         case 'pembayaran':               
-               gopeynya = 'https://telegra.ph/file/9d97bb617ddbd54459dc5.jpg'
+               gopeynya = 'https://telegra.ph/file/fc053881fe8be85e5ed05.jpg'
               teksnya = `Pembayaran 
 *Dana*: 089507948843
 *Ovo* : 089507948843
