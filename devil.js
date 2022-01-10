@@ -941,7 +941,7 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                latensie = speed() - timestampe             
                menu =` *─ Byy Store ─*
    
- 𝘏𝘢𝘭𝘭𝘰 𝘒𝘢𝘬 *${pushname}* TERIMAKASIH SUDAH MENGUNJUNGI Byy Store~            
+ Hallo Kak *${pushname}* TERIMAKASIH SUDAH MENGUNJUNGI Byy Store~            
 
 *LIST MENU BYY STORE*
 *HARGA RESELLER CHAT ADMIN*
@@ -1029,7 +1029,7 @@ Contoh = .menu`
              break
         case 'pay':
         case 'pembayaran':               
-               gopeynya = 'https://telegra.ph/file/fc053881fe8be85e5ed05.jpg'
+               gopeynya = 'https://i.ibb.co/TqMBdQw/b1190bfabb99.jpg'
               teksnya = `Pembayaran 
 *Dana*: 089507948843
 *Ovo* : 089507948843
@@ -1340,7 +1340,7 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`355💎 = 71.250`)
+        reply(`gd`)
 
              break
 case 'promo2':               
