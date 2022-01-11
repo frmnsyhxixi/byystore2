@@ -1340,12 +1340,8 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`*Alu Starwars* Via Gift Rp : 745.000
-
-*Claude Mecha* Via Gift
+        reply(`*Claude Mecha* Via Gift
 Rp : 289.000
-
-670💎 : Rp 127.560 
 
 *NOTE* = Tanyakan Stock Sebelum Order`)
 
