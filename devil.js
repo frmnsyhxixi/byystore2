@@ -1351,7 +1351,7 @@ Rp : 289.000
 
              break
 case 'promo2':               
-        reply(`gd`)
+        reply(`PO Starlight Febuari Via Id 86.000`)
 
              break
 case 'promosl':               
