@@ -1729,9 +1729,9 @@ case 'coa':
               teksnya = `*CRYSTAL OF AURORA*
 
 - BULANAN (1.100 CoA)
-*Rp78.000*
+*Rp72.000*
 -Mingguan (1.300 CoA)
-*Rp138.000*
+*Rp132.000*
 
 *NOTE*
 Via Login
