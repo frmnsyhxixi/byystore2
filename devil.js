@@ -1723,6 +1723,25 @@ case 'dr':
 *MAU CEPET BELI MLA*`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
+case 'coa':
+              if (!isGroup) return reply(mess.only.group)
+              gopeynya = 'https://i.ibb.co/D4GVfGw/2c8fd7dbf0e7.jpg'
+              teksnya = `*CRYSTAL OF AURORA*
+
+- BULANAN (1.100 CoA)
+*Rp78.000*
+-Mingguan (1.300 CoA)
+*Rp138.000*
+
+*NOTE*
+Via Login
+
+*FORMAT ORDER COA*
+Email : 
+Pass :
+Order :`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
 						
 
         
