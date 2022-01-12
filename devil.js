@@ -1099,6 +1099,158 @@ Wa.me/6289507948843`)
 5. Done`)
 
              break
+case 'mlgift':               
+        reply(`GIFT ML RATE 135
+GIFT SKIN
+
+💎 269 = Rp36.315 SKIN NORMAL
+
+💎 299 = Rp40.365 SKIN NORMAL
+
+💎 599 = Rp80.865 SKIN ELITE
+
+💎 749 = Rp101.115 SKIN SPECIAL
+
+💎 899 = Rp121.365 SKIN EPIC
+
+💎 1089 = Rp147.015 SKIN LIGHTBORN
+
+
+GIFT SKIN PO(DIBELI SEBELUM SKIN RILIS)
+
+💎 188 = Rp25.380 SKIN NORMAL
+
+💎 419 = Rp56.565 SKIN ELITE
+
+💎 524 = Rp70.740 SKIN SPECIAL
+
+💎 629 = Rp84.915 SKIN EPIC
+
+💎 762 = Rp102.870 SKIN LIGHTBORN
+
+
+GIFT ITEM SHOP
+
+💎 239 = Rp32.265 CHANGE NAME CARD
+
+💎 299 = Rp40.365 SQUAD NAME CARD
+
+💎 1000 = Rp135.000 NATIONAL FLAG CARD
+
+💎 199 = Rp26.865CREATE SQUAD (LANGSUNG JADI)
+
+💎 79 Rp10.665 EMOTE
+
+💎 109 Rp14.715 EMOTE
+
+
+GIFT CHARISMA (LANGSUNG JADI)
+
+💎 8 = Rp1.080 LAYLA'S CHOCOLATE
+
+💎 20 = Rp2.700 HARLEY'S MAGIC HAT
+
+💎 20 = Rp2.700 ADORABLE SMILODON
+
+💎 20 = Rp2.700 KAGURA'S SEIMEI UMBRELLA
+
+💎 20 = Rp2.700 ANGELA'S DOLL
+
+💎 20 = Rp2.700 DIGGIE'S COLORED
+
+💎 20 = Rp2.700 NANA'S PAW
+
+💎 20 = Rp2.700 HAUNTED DOLL'S CANDY
+
+💎 499 = Rp67.365 ANGEL ARK
+
+💎 499 = Rp67.365 PARADISE ISLAND
+
+
+GIFT HERO
+
+💎 299 = Rp40.365
+
+💎 399 = Rp53.865
+
+💎 499 = Rp67.365
+GIFT SKIN
+
+💎 269 = Rp36.315 SKIN NORMAL
+
+💎 299 = Rp40.365 SKIN NORMAL
+
+💎 599 = Rp80.865 SKIN ELITE
+
+💎 749 = Rp101.115 SKIN SPECIAL
+
+💎 899 = Rp121.365 SKIN EPIC
+
+💎 1089 = Rp147.015 SKIN LIGHTBORN
+
+
+GIFT SKIN PO(DIBELI SEBELUM SKIN RILIS)
+
+💎 188 = Rp25.380 SKIN NORMAL
+
+💎 419 = Rp56.565 SKIN ELITE
+
+💎 524 = Rp70.740 SKIN SPECIAL
+
+💎 629 = Rp84.915 SKIN EPIC
+
+💎 762 = Rp102.870 SKIN LIGHTBORN
+
+
+GIFT ITEM SHOP
+
+💎 239 = Rp32.265 CHANGE NAME CARD
+
+💎 299 = Rp40.365 SQUAD NAME CARD
+
+💎 1000 = Rp135.000 NATIONAL FLAG CARD
+
+💎 199 = Rp26.865CREATE SQUAD (LANGSUNG JADI)
+
+💎 79 Rp10.665 EMOTE
+
+💎 109 Rp14.715 EMOTE
+
+
+GIFT CHARISMA (LANGSUNG JADI)
+
+💎 8 = Rp1.080 LAYLA'S CHOCOLATE
+
+💎 20 = Rp2.700 HARLEY'S MAGIC HAT
+
+💎 20 = Rp2.700 ADORABLE SMILODON
+
+💎 20 = Rp2.700 KAGURA'S SEIMEI UMBRELLA
+
+💎 20 = Rp2.700 ANGELA'S DOLL
+
+💎 20 = Rp2.700 DIGGIE'S COLORED
+
+💎 20 = Rp2.700 NANA'S PAW
+
+💎 20 = Rp2.700 HAUNTED DOLL'S CANDY
+
+💎 499 = Rp67.365 ANGEL ARK
+
+💎 499 = Rp67.365 PARADISE ISLAND
+
+
+GIFT HERO
+
+💎 299 = Rp40.365
+
+💎 399 = Rp53.865
+
+💎 499 = Rp67.365
+
+💎 599 = Rp80.865`)
+
+             break
 case 'rdp':               
         reply(`List Rdp Byy Storee!
 
@@ -1747,8 +1899,8 @@ Order :`
         
         case 'list':
                list = []
-               listmenu = [`promo`,`promo2`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`]
-               listmenuu = [`PROMO PLES SEL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`]
+               listmenu = [`promo`,`promo2`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`mlgift`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
+               listmenuu = [`PROMO PLES SEL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`Gift MLBB`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
