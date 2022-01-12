@@ -1340,10 +1340,13 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`*Claude Mecha* Via Gift
-Rp : 289.000
+        reply(`*Diskon MLB*
 
-*NOTE* = Tanyakan Stock Sebelum Order`)
+534💎 = 107.000
+670💎 = 135.000
+1342💎 = 268.000
+
+*Note* = Semi`)
 
              break
 case 'promo2':               
