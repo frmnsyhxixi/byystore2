@@ -1882,7 +1882,7 @@ case 'coa':
 
 - BULANAN (1.100 CoA)
 *Rp72.000*
--Mingguan (1.300 CoA)
+-Mingguan + Bulanan (1.300 CoA)
 *Rp132.000*
 
 *NOTE*
