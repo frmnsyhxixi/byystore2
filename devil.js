@@ -952,6 +952,8 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *Mlsemic* : List Harga Diamond MlBB Semi C💎
 *Mld* : List Harga Dm MLBB D💎
 *Mlsuperslow* : List Harga Dm Ml Supersloww 💎
+*Mlgift* : List Harga Mlbb Via Gift📌
+*Coa* : List Harga Crystal Of Aurora Via Login ⭐
 *Genshin* : List Harga G Crystal Genshin 💸
 *Sosis* : List Harga Candy Sausage Man🍬
 *Cashpb* : List Harga Cash PB💰
