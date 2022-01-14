@@ -1882,7 +1882,7 @@ case 'dr':
               break
 case 'coa':
               if (!isGroup) return reply(mess.only.group)
-              gopeynya = 'https://i.ibb.co/D4GVfGw/2c8fd7dbf0e7.jpg'
+              gopeynya = 'https://i.ibb.co/sbhvX5q/5bc0dcb00cc8.jpg'
               teksnya = `*CRYSTAL OF AURORA*
 
 - BULANAN (1.100 CoA)
