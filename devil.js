@@ -1494,13 +1494,16 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`*Diskon MLB*
-
-534💎 = 107.000
-670💎 = 135.000
-1342💎 = 268.000
-
-*Note* = Semi`)
+        reply(`92 💎= Rp.18.491
+133 💎= Rp.26.460
+266 💎= Rp.52.920
+400 💎= Rp.79.380
+534 💎= Rp.105.840
+670 💎= Rp.132.300
+1342💎= Rp.264.632
+2700💎= Rp529.200
+4150💎= Rp793.800
+7050💎= Rp1.323.000`)
 
              break
 case 'promo2':               
@@ -1902,7 +1905,7 @@ Order :`
         case 'list':
                list = []
                listmenu = [`promo`,`promo2`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`mlgift`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`PROMO PLES SEL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`Gift MLBB`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
+               listmenuu = [`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`Gift MLBB`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
