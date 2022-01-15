@@ -1065,17 +1065,29 @@ Ovo : Siti Umayah
      case 'genshin':               
     reply(`*List genshin impact*
 
-Status Ready✅
+Tanyakan Stock⭐
 =========================
 Via ID
-*60 G crystal* Rp 12.800❄️
-*330 G crystal* Rp 61.700❄️
-*1090 G crystal* Rp 185.700❄️
-*2240 G crystal* Rp 397.000❄️
-*3880 G crystal* Rp 610.000❄️
-*8080 G crystal* Rp 1.220.000❄️
-===========================
-*BLESSING* 65.000🐱`)
+60                  G Crystal💠
+Rp = 12.800
+
+300   + 330   G Crystal💠
+Rp = 62.500
+
+980   + 110   G Crystal💠
+Rp =  186.500
+
+1980 + 260   G Crystal💠
+Rp = 396.500
+
+3280 + 600   G Crystal💠
+Rp = 646.000
+
+6480 + 1600 G Crystal💠
+Rp =  1.220.000
+
+*NOTE* = PROSES SEMI
+Bonus Hanya Berlaku Untuk Pembelian Pertama`)
              break
   case 'botwa':               
                reply(`*Harga Sewa Bot Byy Store*
@@ -1497,7 +1509,10 @@ case 'promo':
         reply(`670 💎= Rp.132.300
 1342💎= Rp.264.632
 2700💎= Rp529.200
-4150💎= Rp793.800`)
+4150💎= Rp793.800
+
+Genshin
+Blessing Of The Welkin Moon = Rp 60K`)
 
              break
 case 'promo2':               
