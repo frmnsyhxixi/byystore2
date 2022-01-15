@@ -1071,7 +1071,7 @@ Via ID
 60                  G Crystal💠
 Rp = 12.800
 
-300   + 330   G Crystal💠
+300   + 30   G Crystal💠
 Rp = 62.500
 
 980   + 110   G Crystal💠
@@ -1091,6 +1091,35 @@ Blessing Card = Rp.65.000⭐
 *NOTE* = PROSES SEMI
 Bonus Hanya Berlaku Untuk Pembelian Pertama`)
              break
+
+  case 'genshinv':
+                gopeynya = 'https://i.ibb.co/f2CB8MN/86026a84e4b8.jpg'
+              teksnya = `*DAFTAR HARGA GENSHIN IMPACT*
+
+Tanyakan Stock⭐
+=======================
+Via Login
+60   G Crystal💠
+Rp = 12.500
+300  G Crystal💠
+Rp = 60.000
+980  G Crystal💠
+Rp = 180.000
+1980 G Crystal💠
+Rp = 355.000
+3280 G Crystal💠
+Rp = 600.000
+6480 G Crystal💠
+Rp = 1.175.000
+====================
+Blessing Card = Rp 60.000⭐
+Gynostic Hymn = Rp 120.000💠
+Gynostic Chorus = Rp 240.000💠
+
+*NOTE* = YANG PROSES BUKAN GW SENDIRI TAPI WORKER,RESIKO DITANGGUNG PEMBELI
+*Mending Beli Via Id*`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
   case 'botwa':               
                reply(`*Harga Sewa Bot Byy Store*
 - Sewa 7 Hari 10k🤖
@@ -1915,8 +1944,8 @@ Order :`
         
         case 'list':
                list = []
-               listmenu = [`promo`,`promo2`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`mlgift`,`genshin`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`Gift MLBB`,`List Genshin`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
+               listmenu = [`promo`,`promo2`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
+               listmenuu = [`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
