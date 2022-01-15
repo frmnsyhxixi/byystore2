@@ -1085,6 +1085,8 @@ Rp = 646.000
 
 6480 + 1600 G Crystal💠
 Rp =  1.220.000
+=======================
+Blessing Card = Rp.65.000⭐
 
 *NOTE* = PROSES SEMI
 Bonus Hanya Berlaku Untuk Pembelian Pertama`)
