@@ -1548,7 +1548,26 @@ Blessing Of The Welkin Moon = Rp 60K`)
 
              break
 case 'promo2':               
-        reply(`PO Starlight Febuari Via Id 86.000`)
+        reply(`- *PO SKIN GLOO SPECIAL*
+Harga = Rp 70.740
+
+- *PO SKIN SUN EPIC*
+Harga 78.625 = 85.000
+
+- *PO SL FEBRUARI*
+Via id
+86rb/id
+85rb/10 id
+
+*SL Skin* 
+• Cecelion
+*•Opsi•*
+• Grock 
+• Saber 
+• Yishunshin 
+• Yu zong
+
+*NOTE* = PO TANGGAL 20+ HARGA JADI 88K`)
 
              break
 case 'promosl':               
