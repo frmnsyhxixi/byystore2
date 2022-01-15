@@ -1537,8 +1537,9 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`670 💎= Rp.132.300
-1342💎= Rp.264.632
+        reply(`534💎= Rp108.000
+670 💎= Rp132.300
+1342💎= Rp264.632
 2700💎= Rp529.200
 4150💎= Rp793.800
 
