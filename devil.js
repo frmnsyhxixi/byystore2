@@ -1065,7 +1065,8 @@ Proses = 1-10 Menit (Kalau Web Normal)
 *NOTE* = Tanyakan Stock Terlebih Dahulu`)
              break
      case 'genshin':               
-    reply(`*LIST GENSHIN IMPACT*
+    gopeynya = 'https://i.ibb.co/KGYHxgs/5c20a0f17b52.jpg'
+              teksnya = `*LIST GENSHIN IMPACT*
 
 Tanyakan Stock⭐
 =========================
@@ -1086,11 +1087,12 @@ Rp = 600.000
 6480 + 1600 G Crystal💠
 Rp =  1.220.000
 =======================
-Blessing Card = Rp.62.000⭐
+Blessing Card = Rp62.000⭐
 
 *NOTE* = PROSES SEMI
-Bonus Hanya Berlaku Untuk Pembelian Pertama`)
-             break
+Bonus Hanya Berlaku Untuk Pembelian Pertama`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
 
   case 'genshinv':
                 gopeynya = 'https://i.ibb.co/f2CB8MN/86026a84e4b8.jpg'
