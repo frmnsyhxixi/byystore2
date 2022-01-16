@@ -1552,7 +1552,7 @@ case 'promo2':
 Harga = Rp 70.740
 
 - *PO SKIN SUN EPIC*
-Harga 78.625 = 85.000
+Harga = 85.000
 
 - *PO SL FEBRUARI*
 Via id
