@@ -1046,21 +1046,23 @@ Ovo : Siti Umayah
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
         case 'mld':               
-               reply(`*ML PAKET D*
+               reply(`*MLBB FAST PAKET D*
 
-14💎3.200
-42💎9.000
-70💎15.000
-140💎30.000
-282💎60.000
-345💎75.000
-429💎90.000
-708💎150.000
-1.446💎300.000
-2.976💎600.000
-7.502💎1.500.000
+13 + 1 = 14💎 Rp2.850
+38 + 4 = 42💎 Rp8.550
+64 + 6 = 70💎 Rp14.250
+127 + 13 = 140💎 Rp28.500
+254+ 30 = 284💎 Rp57.000
+317 + 38 = 355💎 Rp71.250
+383 + 46 = 429💎 Rp87.000
+633 + 83 = 716💎 Rp142.500
+1252 + 194 = 1.446💎 Rp285.000
+2501 + 475 = 2.976💎 Rp570.000
+6252 + 1250 = 7.502💎1.425.000
 
-*PROSES 3 - 5 MENIT*`)
+Proses = 1-10 Menit (Kalau Web Normal)
+
+*NOTE* = Tanyakan Stock Terlebih Dahulu`)
              break
      case 'genshin':               
     reply(`*List genshin impact*
