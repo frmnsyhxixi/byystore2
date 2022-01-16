@@ -1065,7 +1065,7 @@ Proses = 1-10 Menit (Kalau Web Normal)
 *NOTE* = Tanyakan Stock Terlebih Dahulu`)
              break
      case 'genshin':               
-    gopeynya = 'https://i.ibb.co/KGYHxgs/5c20a0f17b52.jpg'
+    gopeynya = 'https://i.ibb.co/QdsyzJ8/7211343c924a.jpg'
               teksnya = `*LIST GENSHIN IMPACT*
 
 Tanyakan Stock⭐
@@ -1095,7 +1095,7 @@ Bonus Hanya Berlaku Untuk Pembelian Pertama`
               break
 
   case 'genshinv':
-                gopeynya = 'https://i.ibb.co/f2CB8MN/86026a84e4b8.jpg'
+                gopeynya = 'https://i.ibb.co/KGYHxgs/5c20a0f17b52.jpg'
               teksnya = `*DAFTAR HARGA GENSHIN IMPACT*
 
 Tanyakan Stock⭐
