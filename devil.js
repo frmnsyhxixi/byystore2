@@ -1539,11 +1539,12 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`534💎= Rp108.000
-670 💎= Rp132.300
-1342💎= Rp264.632
-2700💎= Rp529.200
-4150💎= Rp793.800
+        reply(`*Promo* 
+
+1K Like IG bot 5rb ( no drop ) 
+1K Like IG Indo 15rb ( less drop ) 
+1K Foll Indo Bot ( 19rb ) 
+1K Foll indo mix ( 25rb )
 
 Genshin
 Blessing Of The Welkin Moon = Rp 60K`)
