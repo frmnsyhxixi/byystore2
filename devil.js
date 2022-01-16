@@ -1065,30 +1065,28 @@ Proses = 1-10 Menit (Kalau Web Normal)
 *NOTE* = Tanyakan Stock Terlebih Dahulu`)
              break
      case 'genshin':               
-    reply(`*List genshin impact*
+    reply(`*LIST GENSHIN IMPACT*
 
 Tanyakan Stock⭐
 =========================
 Via ID
-60                  G Crystal💠
-Rp = 12.800
 
 300   + 30   G Crystal💠
-Rp = 62.500
+Rp = 60.000
 
 980   + 110   G Crystal💠
-Rp =  186.500
+Rp =  180.000
 
 1980 + 260   G Crystal💠
-Rp = 396.500
+Rp = 390.000
 
 3280 + 600   G Crystal💠
-Rp = 646.000
+Rp = 600.000
 
 6480 + 1600 G Crystal💠
 Rp =  1.220.000
 =======================
-Blessing Card = Rp.65.000⭐
+Blessing Card = Rp.62.000⭐
 
 *NOTE* = PROSES SEMI
 Bonus Hanya Berlaku Untuk Pembelian Pertama`)
