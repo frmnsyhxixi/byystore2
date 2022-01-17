@@ -1499,32 +1499,18 @@ Melanggar tidak dapat garansi!
   
         case 'ff':
         case 'freefire':               
-               reply(`─ *FreeFire* ─
+               reply(`Diamone Free Fire🔥
+Via ID
 
-_*Diamond Free fire 🔥*_
-Via ID || 1-10 Menit (Max 24 Jam)
+130  💎 = Rp 15.000
+260  💎 = Rp 30.000
+400  💎 = Rp 45.000
+535  💎 = Rp 60.000
+800  💎 = Rp 90.000
+1350💎 = Rp 150.000
+2800💎 = Rp 300.000
 
-50💎 Rp 6.900
-70💎 Rp 9.400
-100💎 Rp 13.650
-140💎 Rp 18.750
-210💎 Rp 27.900
-280💎 Rp 37.000
-355💎 Rp 47.000
-425💎 Rp 56.430
-500💎 Rp 70.500
-720💎 Rp 95.200
-860💎 Rp 114.412
-1000💎 Rp 130.000
-BERLAKU KELIPATAN
-
-Membership Mingguan : Rp 27.500
-Membership Bulanan : Rp 137.500
-
-*FORMAT ORDER*
-ID :
-NICK :
-ORDER DM :`)
+Proses 1-10 Menit Jika Web Normal`)
              break
 case 'format1':
              reply(`*CONTOH FORMAT :*
