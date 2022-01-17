@@ -1543,13 +1543,13 @@ Harga = Rp 70.740
 - *PO SKIN SUN EPIC*
 Harga = 85.000
 
-- *PO 355💎 = Rp 65.000
+- *PO 355💎 = Rp 67.000
 Dikirim Tanggal 22
 
 - *PO SL FEBRUARI*
 Via id
-86rb/id
-85rb/10 id
+87rb/id
+86rb/10 id
 
 *SL Skin* 
 • Cecelion
