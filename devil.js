@@ -1046,56 +1046,54 @@ Ovo : Siti Umayah
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
         case 'mld':               
-               reply(`*MLBB FAST PAKET D*
+               reply(`*ML PAKET D*
 
-13 + 1 = 14💎 Rp2.850
-38 + 4 = 42💎 Rp8.550
-64 + 6 = 70💎 Rp14.250
-127 + 13 = 140💎 Rp28.500
-254+ 30 = 284💎 Rp57.000
-317 + 38 = 355💎 Rp71.250
-383 + 46 = 429💎 Rp87.000
-633 + 83 = 716💎 Rp142.500
-1252 + 194 = 1.446💎 Rp285.000
-2501 + 475 = 2.976💎 Rp570.000
-6252 + 1250 = 7.502💎1.425.000
+14💎3.200
+42💎9.000
+70💎15.000
+140💎30.000
+282💎60.000
+345💎75.000
+429💎90.000
+708💎150.000
+1.446💎300.000
+2.976💎600.000
+7.502💎1.500.000
 
-Proses = 1-10 Menit (Kalau Web Normal)
-
-*NOTE* = Tanyakan Stock Terlebih Dahulu`)
+*PROSES 3 - 5 MENIT*`)
              break
      case 'genshin':               
-    gopeynya = 'https://i.ibb.co/QdsyzJ8/7211343c924a.jpg'
-              teksnya = `*LIST GENSHIN IMPACT*
+    reply(`*List genshin impact*
 
 Tanyakan Stock⭐
 =========================
 Via ID
+60                  G Crystal💠
+Rp = 12.800
 
 300   + 30   G Crystal💠
-Rp = 60.000
+Rp = 62.500
 
 980   + 110   G Crystal💠
-Rp =  180.000
+Rp =  186.500
 
 1980 + 260   G Crystal💠
-Rp = 390.000
+Rp = 396.500
 
 3280 + 600   G Crystal💠
-Rp = 600.000
+Rp = 646.000
 
 6480 + 1600 G Crystal💠
 Rp =  1.220.000
 =======================
-Blessing Card = Rp62.000⭐
+Blessing Card = Rp.65.000⭐
 
 *NOTE* = PROSES SEMI
-Bonus Hanya Berlaku Untuk Pembelian Pertama`
-              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
-              break
+Bonus Hanya Berlaku Untuk Pembelian Pertama`)
+             break
 
   case 'genshinv':
-                gopeynya = 'https://i.ibb.co/KGYHxgs/5c20a0f17b52.jpg'
+                gopeynya = 'https://i.ibb.co/f2CB8MN/86026a84e4b8.jpg'
               teksnya = `*DAFTAR HARGA GENSHIN IMPACT*
 
 Tanyakan Stock⭐
@@ -1499,18 +1497,7 @@ Melanggar tidak dapat garansi!
   
         case 'ff':
         case 'freefire':               
-               reply(`Diamone Free Fire🔥
-Via ID
-
-130  💎 = Rp 15.000
-260  💎 = Rp 30.000
-400  💎 = Rp 45.000
-535  💎 = Rp 60.000
-800  💎 = Rp 90.000
-1350💎 = Rp 150.000
-2800💎 = Rp 300.000
-
-Proses 1-10 Menit Jika Web Normal`)
+               reply(`gada`)
              break
 case 'format1':
              reply(`*CONTOH FORMAT :*
@@ -1525,12 +1512,11 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`*Promo* 
-
-1K Like IG bot 5rb ( no drop ) 
-1K Like IG Indo 15rb ( less drop ) 
-1K Foll Indo Bot ( 19rb ) 
-1K Foll indo mix ( 25rb )
+        reply(`534💎= Rp108.000
+670 💎= Rp132.300
+1342💎= Rp264.632
+2700💎= Rp529.200
+4150💎= Rp793.800
 
 Genshin
 Blessing Of The Welkin Moon = Rp 60K`)
@@ -1543,13 +1529,10 @@ Harga = Rp 70.740
 - *PO SKIN SUN EPIC*
 Harga = 85.000
 
-- *PO 355💎 = Rp 67.000
-Dikirim Tanggal 22
-
 - *PO SL FEBRUARI*
 Via id
-87rb/id
-86rb/10 id
+86rb/id
+85rb/10 id
 
 *SL Skin* 
 • Cecelion
