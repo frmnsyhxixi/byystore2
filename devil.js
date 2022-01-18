@@ -1765,22 +1765,26 @@ ORDER DM :
              break
         case 'sausage':
         case 'sosis':               
-               reply(`─ *SAUSAGE MAN* ─
+               case 'genshin':               
+    gopeynya = 'https://i.ibb.co/NFxDHvk/6625f16ad2ef.jpg'
+              teksnya = `─ *SAUSAGE MAN* ─
 
 _*CANDY SAUSAGE MAN*_
 *VIA ID ONLY*
 
-60 CANDY 🍬 Rp. 13.200
-180 CANDY 🍬 Rp. 38.000
-316 CANDY 🍬 Rp. 65.000
-718 CANDY 🍬 Rp. 127.000
-1368 CANDY 🍬 Rp. 252.000
-2118 CANDY 🍬 Rp. 379.000
-7048 CANDY 🍬 Rp. 1.270.000
+60 CANDY 🍬 Rp. 11.700
+180 CANDY 🍬 Rp. 38.700
+316 CANDY 🍬 Rp. 59.700
+718 CANDY 🍬 Rp. 119.700
+1368 CANDY 🍬 Rp. 239.700
+2118 CANDY 🍬 Rp. 389.700
+3548 CANDY🍬 Rp. 599.700
+7048 CANDY 🍬 Rp. 1.200.000
 
 Proses maksimal 24 jam
-*HARGA SEWAKTU WAKTU BERUBAH*`)
-             break
+*HARGA SEWAKTU WAKTU BERUBAH*`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
 
 //NYEWOOO BOTTTT ANJJJ
 
