@@ -1544,8 +1544,11 @@ Harga = Rp 70.740
 - *PO SKIN SUN EPIC*
 Harga = 85.000
 
-- *PO 355*💎 = Rp 67.000
-Dikirim Tanggal 22 Pas Event Gacha
+- *PO Tanggal 22 Event Aspirant*
+
+70💎 = Rp 13.750
+284💎 = Rp 54.600
+355💎 = Rp 67.000
 
 - *PO SL FEBRUARI*
 Via id
