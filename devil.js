@@ -261,7 +261,7 @@ module.exports = devil = async (devil, mek) => {
         const gcount = setting.gcount
         
         const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = devil.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "💎MENU LIST💎","footerText": "SILAHKAN PILIH LIST MENU\nDI BAWAH","listType": "SINGLE_SELECT","sections": list}}, {})
+            let po = devil.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Menu","footerText": "SILAHKAN PILIH LIST MENU\nDI BAWAH","listType": "SINGLE_SELECT","sections": list}}, {})
             return devil.relayWAMessage(po, {waitForAck: true})
         }
         
