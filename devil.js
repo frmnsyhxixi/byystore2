@@ -1565,6 +1565,13 @@ Genshin
 Blessing Of The Welkin Moon = Rp 60K`)
 
              break
+case 'listpo':               
+               reply(`List Pre Order Event Aspirant
+
+355💎
+23 Jan. 
+1118297885 13498`)
+             break
 case 'promo2':
                 gopeynya = 'https://i.ibb.co/hyVhcph/c5a5598a607a.jpg'
               teksnya = `- *PO SKIN GLOO SPECIAL*
@@ -1993,7 +2000,7 @@ Order :`
         
         case 'list':
                list = []
-               listmenu = [`promo`,`promo2`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
+               listmenu = [`listpo`,`promo`,`promo2`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
                listmenuu = [`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
