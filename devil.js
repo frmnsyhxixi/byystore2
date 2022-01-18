@@ -1557,6 +1557,10 @@ case 'promo':
 1K Foll Indo Bot ( 19rb ) 
 1K Foll indo mix ( 25rb )
 
+*FLASH SALE*
+266 💎 50.000 
+344 💎 69.975
+
 Genshin
 Blessing Of The Welkin Moon = Rp 60K`)
 
