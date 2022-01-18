@@ -954,6 +954,7 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *Mlsuperslow* : List Harga Dm Ml Supersloww 💎
 *Mlgift* : List Harga Mlbb Via Gift📌
 *Coa* : List Harga Crystal Of Aurora Via Login ⭐
+*Dragonraja* = List Harga Coupon Dragon Raja💌
 *Genshin* : List Harga G Crystal Genshin 💸
 *Sosis* : List Harga Candy Sausage Man🍬
 *Cashpb* : List Harga Cash PB💰
@@ -1348,15 +1349,39 @@ Proses maksimal 24 jam
 *HARGA SEWAKTU WAKTU BERUBAH*`)
              break
              
-   case 'ragnarox':               
-               reply(`LIST Ragnarox X Generation
-2580💎= Rp63.000
-6450💎= Rp157.500
-10300💎= Rp252.200
-12900💎= Rp315.000
+   case 'ragnarox':
+                gopeynya = 'https://i.ibb.co/YtskxQ0/728b6d46fe1d.jpg'
+              teksnya = `*Ragnarox M* : Eternal Love
 
-Via id:`)
-             break
+6 Big Cat🐱 = Rp 12.000
+12 Big Cat🐱 = Rp 24.000
+18 Big Cat🐱 = Rp 36.000
+24 Big Cat🐱 = Rp 48.000
+36 Big Cat🐱 = Rp 60.000
+72 Big Cat🐱 = Rp 120.000
+145 Big Cat🐱 = Rp 80.000
+373 Big Cat🐱 = Rp 600.000
+748 Big Cat🐱 = Rp 1.200.000
+
+*Note* Proses 1-5 Menit Jika Web Normal
+Tanyakan Stock Sebelum Order`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
+case 'dragonraja':
+                gopeynya = 'https://i.ibb.co/qy6MXPt/13cecd65bc97.jpg'
+              teksnya = `*Coupon Dragon Raja Sea*
+
+76     Coupons🎁 = Rp 15.000
+456   Coupons🎁 = Rp 90.000
+820   Coupons🎁 = Rp 150.000
+1699 Coupons🎁 = Rp 300.000
+5161 Coupons🎁 = Rp 900.000
+9056 Coupons🎁 = Rp 1.500.000
+
+*Note* Tanyakan Stock Sebelum Order
+PROSES 1-5 MENIT JIKA WEB NORMAL`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
 case 'reseller':               
                reply(`*KEUNTUNGAN JOIN RESELLER BYY STORE*
 
