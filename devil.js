@@ -1135,15 +1135,16 @@ Gynostic Chorus = Rp 240.000💠
 Wa.me/6289507948843`)
              break
   case 'caraorder':               
-        reply(`_*CARA ORDER DM BYYSTORE*_
+        gopeynya = 'https://i.ibb.co/G3RJGG3/2850d5951ef6.jpg'
+              teksnya = `*CARA ORDER DM BYYSTORE*
 
 1. Tanyakan Stock Ke Admin
 2. Tf ke Nomer Ewallet Admin
 3. Kirim Id Server/Data
-4. Proses
-5. Done`)
-
-             break
+4. Proses 
+5. Done`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
 case 'mlgift':               
         reply(`GIFT ML RATE 135
 GIFT SKIN
