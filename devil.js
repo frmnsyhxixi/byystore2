@@ -1472,13 +1472,11 @@ case 'listpo':
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/Tc8848V/db6ac4e8be4b.jpg'
-              teksnya = `- *PO SKIN SUN EPIC*
-Harga = 85.000
-
-- *PO Tanggal 29 Event Aspirant*
+              teksnya = `- *PO Tanggal 29 Event Aspirant*
 
 70💎 = Rp 13.750
 182💎 = Rp 35.620
+284💎 = Rp 54.600
 355💎 = Rp 67.500
 716💎 = Rp 136.000
 1446💎 = Rp 270.000
