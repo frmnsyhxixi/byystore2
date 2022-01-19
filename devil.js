@@ -978,7 +978,7 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 =======================
 *Oiya Jangan Lupa Kasih Prefix Bang*
 Contoh = .menu`                          
-               buttons = [{buttonId: `${prefix}list`,buttonText:{displayText: '☰ PRICE LIST'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'💰PEMBAYARAN💰'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'OWNER👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
+               buttons = [{buttonId: `${prefix}daftar`,buttonText:{displayText: '☰ PRICE LIST'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'💰PEMBAYARAN💰'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'OWNER👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
 
                imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
 
@@ -1898,7 +1898,7 @@ Order :`
 						
 
         
-        case 'list':
+        case 'daftar':
                list = []
                listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`netflix`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
                listmenuu = [`List PO`,`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`Akun Netflix`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
