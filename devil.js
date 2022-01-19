@@ -1918,11 +1918,11 @@ Order :`
         case 'daftar':
                list = []
                listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`cashpb`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`List PO`,`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`Join Reseller`,`OWNER`]
+               listmenuu = [`List PO`,`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`Cash PB`,`LIST MLBB`,`LIST Sausage Man`,`List Point Blank`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
-               const yy = {title: '' + nombor++,
+               const yy = {title: 'Silahkan Pilih Menunya ' + nombor++,
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
@@ -1933,7 +1933,7 @@ Order :`
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,  ``, list)
+               listmsg(from, `${ucapanWaktu}`,  `Hai kak......\n*${pushname}*\nKlik Disini`, list)
                break
         case 'aljxixnu':
         case 'menuuu':
