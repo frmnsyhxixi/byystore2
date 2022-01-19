@@ -1482,7 +1482,7 @@ case 'mlpo':
 1446💎 = Rp 270.000
 2976💎 = Rp 538.000
 
-*NOTE* = Rp Close PO Tanggal 28 Jam 24.000 WIB
+*NOTE* = Close PO Tanggal 28 Jam 24.00 WIB
 
 - *PO SL FEBRUARI*
 Via id
@@ -1497,7 +1497,9 @@ Via id
 • Yishunshin 
 • Yu zong
 
-*NOTE* = PO TANGGAL 20+ HARGA JADI 88K`
+*NOTE* = PO TANGGAL 20+ HARGA JADI 88K
+
+Untuk Cek List PO Silahkan Ketik ${prefix}listpo`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
