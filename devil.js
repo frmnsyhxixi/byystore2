@@ -1472,17 +1472,17 @@ case 'listpo':
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/hyVhcph/c5a5598a607a.jpg'
-              teksnya = `- *PO SKIN GLOO SPECIAL*
-Harga = Rp 70.740
-
-- *PO SKIN SUN EPIC*
+              teksnya = `- *PO SKIN SUN EPIC*
 Harga = 85.000
 
-- *PO Tanggal 22 Event Aspirant*
+- *PO Tanggal 29 Event Aspirant*
 
 70💎 = Rp 13.750
-284💎 = Rp 54.600
-355💎 = Rp 67.000
+182💎 = Rp 35.620
+355💎 = Rp 67.500
+716💎 = Rp 136.000
+1446💎 = Rp 270.000
+2976💎 = Rp 538.000
 
 - *PO SL FEBRUARI*
 Via id
