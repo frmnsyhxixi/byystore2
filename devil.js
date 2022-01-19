@@ -1471,7 +1471,7 @@ case 'listpo':
 1118297885 13498`)
              break
 case 'mlpo':
-                gopeynya = 'https://i.ibb.co/hyVhcph/c5a5598a607a.jpg'
+                gopeynya = 'https://i.ibb.co/Tc8848V/db6ac4e8be4b.jpg'
               teksnya = `- *PO SKIN SUN EPIC*
 Harga = 85.000
 
