@@ -1482,6 +1482,8 @@ case 'mlpo':
 1446💎 = Rp 270.000
 2976💎 = Rp 538.000
 
+*NOTE* = Rp Close PO Tanggal 28 Jam 24.000 WIB
+
 - *PO SL FEBRUARI*
 Via id
 87rb/id
