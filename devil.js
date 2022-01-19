@@ -946,38 +946,38 @@ devil.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *LIST MENU BYY STORE*
 *HARGA RESELLER CHAT ADMIN*
 ==========================
-*List* : Untuk Melihat Daftar Menu Yang Ada Di Byy Store✅
-*Mla* : List Harga Diamond MLBB A💎
-*Mlb* : List Harga Diamond MLBB B💎
-*Mlsemic* : List Harga Diamond MlBB Semi C💎
-*Mld* : List Harga Dm MLBB D💎
-*Mlsuperslow* : List Harga Dm Ml Supersloww 💎
-*Mlgift* : List Harga Mlbb Via Gift📌
-*Coa* : List Harga Crystal Of Aurora Via Login ⭐
-*Dragonraja* = List Harga Coupon Dragon Raja💌
-*Genshin* : List Harga G Crystal Genshin 💸
-*Sosis* : List Harga Candy Sausage Man🍬
-*Cashpb* : List Harga Cash PB💰
-*Ff* : List Harga Diamond Free Fire💎
-*Neflix* : Akun Netflix PREMIUM 🎮
-*Rdp* : List Harga rdp💻
-*Sosmed* : List Harga Kebutuhan Sosmed 👾
-*Pubg* : List Harga Uc Pubg💵
-*Ragnarox* : List Harga Ragnarox X💎
-*valorant* : List Harga Valorant 🎮
+*${prefix}daftar* : Untuk Melihat Daftar Menu Yang Ada Di Byy Store✅
+*${prefix}mla* : List Harga Diamond MLBB A💎
+*${prefix}mlb* : List Harga Diamond MLBB B💎
+*${prefix}semic* : List Harga Diamond MlBB Semi C💎
+*${prefix}mld* : List Harga Dm MLBB D💎
+*${prefix}mlsuperslow* : List Harga Dm Ml Supersloww 💎
+*${prefix}mlgift* : List Harga Mlbb Via Gift📌
+*${prefix}coa* : List Harga Crystal Of Aurora Via Login ⭐
+*${prefix}Dragonraja* = List Harga Coupon Dragon Raja💌
+*${prefix}Genshin* : List Harga G Crystal Genshin 💸
+*${prefix}Sosis* : List Harga Candy Sausage Man🍬
+*${prefix}Cashpb* : List Harga Cash PB💰
+*${prefix}Ff* : List Harga Diamond Free Fire💎
+*${prefix}apkprem* : Akun PREMIUM 🎮
+*${prefix}Rdp* : List Harga rdp💻
+*${prefix}Sosmed* : List Harga Kebutuhan Sosmed 👾
+*${prefix}Pubg* : List Harga Uc Pubg💵
+*${prefix}Ragnarox* : List Harga Ragnarox X💎
+*${prefix}valorant* : List Harga Valorant 🎮
 ========================
-*Reedemml* : Kode Reedem ML💎
-*Rekber* : Harga Jasa Rekber Akun 🌚
-*Mlpo* : List PO ML 💎
-*Promo* : List Promo 💎
-*Pormat* : Cek Format Beli ✅
-*Pay* : Nomer Untuk Tf💵
-*Sewabott* : List Harga Bot Wa,Jasa Run Bot🚀
-*Qriss* : Kode Qris📌
-*Caraorder* : Untuk Bertanya Cara Order🔍
+*${prefix}Reedemml* : Kode Reedem ML💎
+*${prefix}Rekber* : Harga Jasa Rekber Akun 🌚
+*${prefix}Mlpo* : List PO ML 💎
+*${prefix}Promo* : List Promo 💎
+*${prefix}Pormat* : Cek Format Beli ✅
+*${prefix}Pay* : Nomer Untuk Tf💵
+*${prefix}Sewabott* : List Harga Bot Wa,Jasa Run Bot🚀
+*${prefix}Qriss* : Kode Qris📌
+*${prefix}Caraorder* : Untuk Bertanya Cara Order🔍
 =======================
-*Oiya Jangan Lupa Kasih Prefix Bang*
-Contoh = .menu`                          
+*${prefix}Oiya Jangan Lupa Kasih Prefix Bang*
+Contoh = ${prefix}menu`                          
                buttons = [{buttonId: `${prefix}daftar`,buttonText:{displayText: '☰ PRICE LIST'},type:1},{buttonId:`${prefix}pay`,buttonText:{displayText:'💰PEMBAYARAN💰'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'OWNER👤'},type:1},{buttonId:`${prefix}allmenu`,buttonText:{displayText:'ALLMENU'},type:1}]
 
                imageMsg = (await devil.prepareMessageMedia(fs.readFileSync(`./media/devil.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/devil.jpg`)})).imageMessage
@@ -1399,9 +1399,20 @@ JIKA DROP DAN STATUS GARANSI , MAKA AKAN DI ISI ULANG.`)
 6600💵 Rp. 1.028.000
 *BERLAKU KELIPATAN*`)
              break
-    case 'netflix':               
-               reply(`Netflix Shared (1 Profile) : Rp. 35.000/Bulan
+    case 'apkprem':               
+               reply(`Yt Premium 1 bulan 4k✅
+(Via Invite)
 
+Canva Premium 1 Tahun 10k✅
+
+Netflix Premium 30k✅
+(1 Profil 1 User)
+
+Netflix Premium (5 Profile) 100k ✅
+
+We TV 1 Tahun 15k✅
+
+Keuntungan Netflix Premium
 ✅ Streaming Ultra HD
 ✅ 100% Legal dan safe
 ✅ 1 Device (1 Screen)
