@@ -1499,7 +1499,7 @@ Via id
 
 *NOTE* = PO TANGGAL 20+ HARGA JADI 88K
 
-Untuk Cek List PO Silahkan Ketik ${prefix}listpo`
+Untuk Cek List PO Silahkan Ketik *${prefix}listpo*`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
