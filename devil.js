@@ -1475,7 +1475,7 @@ case 'promo':
 case 'listpo':               
                reply(`List Pre Order Event Aspirant
 
-355💎
+716💎
 23 Jan. 
 1118297885
 13498
