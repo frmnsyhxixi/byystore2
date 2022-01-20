@@ -1461,17 +1461,15 @@ Terimakasih Semoga Mengerti ^_^`)
 case 'promo':               
         reply(`*Promo* 
 
-1K Like IG bot 5rb ( no drop ) 
-1K Like IG Indo 15rb ( less drop ) 
-1K Foll Indo Bot ( 19rb ) 
-1K Foll indo mix ( 25rb )
-
-*FLASH SALE*
-266 💎 50.000 
-344 💎 69.975
-
-Genshin
-Blessing Of The Welkin Moon = Rp 60K`)
+-1K Foll IG Indo 25rb
+( Bonus 10% ) 
+-1K View Reel 5rb
+-100 Like IG indo 3rb
+( Free custom comment )
+ -1K Like IG Bot 4rb
+( No drop ) 
+-5K Reach / insight 2.2rb
+-1M tiktok View 26rb`)
 
              break
 case 'listpo':               
