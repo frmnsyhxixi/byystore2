@@ -1485,7 +1485,12 @@ case 'listpo':
 182💎
 X • S U N N Y
 293823665
-9533`)
+9533
+
+*Sl Febuari*
+Keyruz
+463713687 
+2386`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/Tc8848V/db6ac4e8be4b.jpg'
