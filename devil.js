@@ -1469,7 +1469,14 @@ case 'promo':
  -1K Like IG Bot 4rb
 ( No drop ) 
 -5K Reach / insight 2.2rb
--1M tiktok View 26rb`)
+-1M tiktok View 26rb
+
+hidetag Take 1
+133💎 = Rp 26.500
+670💎 = Rp 130.000
+
+Take 2
+803💎 = Rp 150.000`)
 
              break
 case 'listpo':               
