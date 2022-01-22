@@ -1482,7 +1482,7 @@ Take 2
 case 'listpo':               
                reply(`List Pre Order Event Aspirant
 
-716💎
+716💎 + 355💎
 23 Jan. 
 1118297885
 13498
