@@ -1095,7 +1095,7 @@ Bonus Hanya Berlaku Untuk Pembelian Pertama`
   case 'genshinv':
                 gopeynya = 'https://i.ibb.co/KGYHxgs/5c20a0f17b52.jpg'
               teksnya = `*Blessing Card* = Rp 58.000
-*Gynostic Hymn* = Rp 120.000í ½
+*Gynostic Hymn* = Rp 120.000
 *Gynostic Chorus* = Rp 240.000
 
 Format Order
