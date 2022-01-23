@@ -1094,30 +1094,15 @@ Bonus Hanya Berlaku Untuk Pembelian Pertama`
 
   case 'genshinv':
                 gopeynya = 'https://i.ibb.co/KGYHxgs/5c20a0f17b52.jpg'
-              teksnya = `*DAFTAR HARGA GENSHIN IMPACT*
+              teksnya = `*Blessing Card* = Rp 58.000⭐
+*Gynostic Hymn* = Rp 120.000💠
+*Gynostic Chorus* = Rp 240.000💠
 
-Tanyakan Stock⭐
-=======================
-Via Login
-60   G Crystal💠
-Rp = 12.500
-300  G Crystal💠
-Rp = 60.000
-980  G Crystal💠
-Rp = 180.000
-1980 G Crystal💠
-Rp = 355.000
-3280 G Crystal💠
-Rp = 600.000
-6480 G Crystal💠
-Rp = 1.175.000
-====================
-Blessing Card = Rp 60.000⭐
-Gynostic Hymn = Rp 120.000💠
-Gynostic Chorus = Rp 240.000💠
+Format Order
+*Email* :
+*Password* :
 
-*NOTE* = YANG PROSES BUKAN GW SENDIRI TAPI WORKER,RESIKO DITANGGUNG PEMBELI
-*Mending Beli Via Id*`
+*Note* = Yang Proses Worker Bukan Owner,Jika Worker Khilaf Bukan Salah Admin :D`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
   case 'botwa':               
