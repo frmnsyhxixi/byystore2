@@ -1182,6 +1182,33 @@ GIFT HERO
 💎 499 = Rp67.365`)
 
              break
+case 'cv':               
+        reply(`*Jasa Convert* 🔥
+
+_*FEE*_
+_Nominal 15K - 50K Fee Rp 1000_
+_Nominal 51K - 100K Fee Rp 2.000_
+_Nominal 101K - 150K Fee Rp 2.500_
+_Nominal 151K - 200K Fee Rp 3.500_
+
+*MIN CV 15K*
+*MAX CV 200K*
+
+*E-wallet➡️E-Wallet*
+*E-wallet Non Prem➡️E-wallet Prem*
+*E-wallet➡️Bank*
+*🔃Dan sebaliknya*
+
+-Dana
+-Gopay
+-Ovo
+-Link Aja 
+-Shopeepay
+-All Bank
+
+*Proses 1-15 Menit*`)
+
+             break
 case 'rdp':               
         reply(`List Rdp Byy Storee!
 
@@ -1910,8 +1937,8 @@ Order :`
         
         case 'daftar':
                list = []
-               listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`List PO`,`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`List Point Blank`,`LIST MLBB`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
+               listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
+               listmenuu = [`List PO`,`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`List Point Blank`,`LIST MLBB`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
