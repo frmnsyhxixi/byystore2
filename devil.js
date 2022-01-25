@@ -1588,32 +1588,24 @@ case 'format2':
              break 
       case 'mlbbsemi':
         case 'mlb':               
-               reply(`─ *Mobile Legends SEMI FAST* ─
-               
-*Diamond Mobile Legends Paket B*
+               reply(`*Diamond Mobile Legends Paket B*
 *VIA ID + SERVER*
 
-39💎 [34+5] Rp. 8.417
-65 💎 [58+7 bonus] Rp. 14.028
-92 💎 [83+9 bonus] Rp. 19.606
-133 💎[120+13 bonus] Rp. 28.056
-266 💎[133x2]  = Rp. 54.442
-400 💎[360+40]  = Rp. 84.168
-534 💎[480+54]  = Rp. 112.224
-670 💎[600+70]  = Rp. 140.280
-1342 💎[1200+142]= Rp 277.233
+39💎 [34+5] Rp.7988
+65 💎 [58+7 bonus] Rp. 13.314
+92 💎 [83+9 bonus] Rp. 18.679
+133 💎[120+13 bonus] Rp. 26.628
+266 💎[133x2]  = Rp. 53.256
+400 💎[360+40]  = Rp. 79.884
+534 💎[480+54]  = Rp. 106.512
+670 💎[600+70]  = Rp. 133.140
+1342 💎[1200+142]= Rp 266.317
 
 BERLAKU KELIPATAN
 
 Jam Operasional : Buka 24 Jam
 Estimasi proses : 1 - 15 menit
-NB : Proses maksimal 24 jam
-
-*FORMAT ORDER (ML B)*
-ID :
-(Server) :
-NICK :
-ORDER DM :`)
+NB : Proses maksimal 24 jam`)
              break
 case 'format3':
              reply(`*Format Order (mlbb B)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
