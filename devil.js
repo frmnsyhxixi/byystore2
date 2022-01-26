@@ -1507,6 +1507,16 @@ Psychoverst
 48835315
 2081
 
+355💎
+KORBAN ASMARA
+961830820
+12826
+
+70💎
+X Y N E
+43297847
+2066
+
 *Sl Febuari*
 Keyruz.
 463713687 
