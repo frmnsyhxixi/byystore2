@@ -1510,7 +1510,12 @@ Psychoverst
 *Sl Febuari*
 Keyruz.
 463713687 
-2386`)
+2386
+
+*Sl Febuari*
+R A D I U S
+98808921
+2510`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/Tc8848V/db6ac4e8be4b.jpg'
