@@ -1046,18 +1046,12 @@ Ovo : Siti Umayah
         case 'mld':               
                reply(`*MLBB FAST PAKET D*
 
-*MLBB FAST PAKET D*
-
 13 + 1 = 14💎 Rp3.000
 38 + 4 = 42💎 Rp9.000
 64 + 6 = 70💎 Rp15.000
 127 + 13 = 140💎 Rp30.000
 254+ 30 = 284💎 Rp60.000
 317 + 38 = 355💎 Rp75.000
-
-Proses = 1-10 Menit (Kalau Web Normal)
-
-*NOTE* = Tanyakan Stock Terlebih Dahulu
 
 Proses = 1-10 Menit (Kalau Web Normal)
 
