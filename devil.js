@@ -1029,7 +1029,7 @@ Contoh = ${prefix}menu`
              break
         case 'pay':
         case 'pembayaran':               
-               gopeynya = 'https://i.ibb.co/TqMBdQw/b1190bfabb99.jpg'
+               gopeynya = 'https://i.ibb.co/Q6SQqnC/e5d7aa551a20.jpg'
               teksnya = `Pembayaran 
 *Dana*: 089507948843
 *Ovo* : 089507948843
@@ -1476,44 +1476,7 @@ case 'promo':
 
              break
 case 'listpo':               
-               reply(`List Pre Order Event Aspirant
-
-716💎 + 355💎
-23 Jan. 
-1118297885
-13498
-
-182💎
-X • S U N N Y
-293823665
-9533
-
-355💎 + 182💎
-Iɱɾσɳx.
-151946125
-2774
-
-716💎
-Psychoverst
-48835315
-2081
-
-355💎
-KORBAN ASMARA
-961830820
-12826
-
-70💎
-X Y N E
-43297847
-2066
-
-284💎
-Friezz Ahh.
-117149540
-2597
-
-*Sl Febuari*
+               reply(`*Sl Febuari*
 Keyruz.
 463713687 
 2386
@@ -1844,15 +1807,6 @@ Dm sebelumnya :
 
 📌CATATAN 
 *Semua kesalahan nick,id bukan tanggung jawab kami jadi perhatikan baik²*`)
-             break
-case 'payment':               
-        reply(`*PAYMENT*
-
-*OVO*      = 081287611030
-*GOPAY* = 081287611030
-*DANA* = 081287611030
-*SHOPEEPAY* = 081287611030
-BCA : 7600238706 A/N ULFI RULLIANDI`)
              break
 case 'sls':               
         reply(`*SL SLOW 90.000*
