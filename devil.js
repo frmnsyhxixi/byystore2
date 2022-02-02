@@ -1032,9 +1032,9 @@ Contoh = ${prefix}menu`
                gopeynya = 'https://i.ibb.co/Q6SQqnC/e5d7aa551a20.jpg'
               teksnya = `Pembayaran 
 *Dana*: 089507948843
-*Ovo* : 089507948843
-*Gopay* : 089507948843
-*ShopeePay* : 089507948843
+*Ovo* : 085975115558
+*Gopay* : 085975115558
+*ShopeePay* : 085975115558
 *Indomaret* : Minta Kode Ke Admin
 ====================
 Semua : A/N Robby Firmansyah
