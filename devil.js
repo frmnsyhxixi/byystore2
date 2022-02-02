@@ -1454,9 +1454,7 @@ Via ID
 Proses 1-10 Menit Jika Web Normal`)
              break
 case 'format1':
-             reply(`*CONTOH FORMAT :*
-
-Berikan Keterangan Order apa :
+             reply(`Berikan Keterangan Order apa :
 ID : 
 SERVER : 
 Nominal Order :
@@ -1466,8 +1464,7 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`14💎 = Take 2 Slot 2.700
-140💎 = 27.000 (1 Slot)`)
+        reply(`NOTHING`)
 
              break
 case 'listpo':               
@@ -1514,7 +1511,7 @@ Untuk Cek List PO Silahkan Ketik *${prefix}listpo*`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
-        reply(`*PROMO SL JANUARI*
+        reply(`*Promo Starlight Febuari*
 HARGA BIASA : 95.000
 HARGA RESS : 91.000
 
@@ -1522,40 +1519,7 @@ HARGA RESS : 91.000
 
              break
 case 'mla':
-             reply(`_*ByyStore BOT*_
-*Diamond Mobile Legends Paket A*
-*VIA ID + SERVER*
-
-86💎	Rp18,550
-172💎	Rp37,100
-257💎	Rp55,650
-344💎	Rp74,200
-429💎	Rp92,750
-514💎	Rp111,300
-601💎	Rp129,850
-706💎	Rp148,400
-878💎	Rp185,500
-962💎	Rp204,050
-1050💎	Rp222,600
-1220💎	Rp259,700
-1412💎	Rp296,800
-2194💎 Rp441,225
-3073💎	Rp626,725
-3688💎	Rp734,050
-4032💎	Rp808,250
-5532💎	Rp1.102,400
-6238💎 Rp1.250,800
-9288💎	Rp1.836,450
-
-BERLAKU KELIPATAN
-
-Starlight⭐ = Rp. 125.658
-Twilight⭐ = Rp. 125.658
-
-Jam Operasional : Buka 24 Jam
-Estimasi proses : 1 - 10 menit
-NB : Proses maksimal 24 jam
-*HARGA SEWAKTU WAKTU BERUBAH*`)
+             reply(`nothing`)
              break
 case 'format2':
              reply(`*Format Order (mlbb A)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
