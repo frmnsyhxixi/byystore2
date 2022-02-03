@@ -1551,7 +1551,6 @@ NB : Proses maksimal 24 jam`)
 case 'format3':
              reply(`*Format Order (mlbb B)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
              break 
-        case 'ml':
         case 'mlbb':               
                parseMention = (text = '') => {
                return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
