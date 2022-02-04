@@ -1732,24 +1732,27 @@ MEMBER MINGGUAN Rp. 27.500
 MEMBER BULANAN Rp. 137.500`)
              break
 case 'mlb':               
-        reply(`*LIST MLBB PAKET B*
+        reply(`*Diamond Mobile Legends Paket B*
+*VIA ID + SERVER*
 
-PROSES 1-10 MENIT
+34+5  💎 = Rp  8.064
+58+7  💎 = Rp 13.440
+83+9  💎 = Rp  18.800
+120+13  💎 = Rp  26.900
+240+26  💎 = Rp  53.800
+360+40  💎 = Rp  80.650
+480+54  💎 = Rp  107.550
+600+70  💎 = Rp 134.400
+1200+142 💎 = Rp 268.900
+2400+300 💎 = Rp 537.600
+3600+550 💎 = Rp 806.400
+6000+1050 💎 = Rp 1.344.000
 
-39 💎 = Rp 8.316
-65 💎 = Rp 13.860
-92 💎 = Rp 19.371
-133 💎 = Rp 27.720
-266 💎 = Rp 55.440
-400 💎 = Rp 83.160
-534 💎 = Rp 110.880
-670 💎 = Rp 138.600
-1342 💎 = Rp 277.233
-2700 💎 = Rp 554.400
-4150 💎 = Rp 831.600
-7050 💎 = Rp 1.386.000
+BERLAKU KELIPATAN
 
-*BERLAKU KELIPATAN*`)
+Jam Operasional : Buka 24 Jam
+Estimasi proses : 1 - 15 menit
+NB : Proses maksimal 24 jam`)
              break
 case 'formatt':               
         reply(`📍FORMAT MOBILE LEGEND
