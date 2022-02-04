@@ -1731,7 +1731,7 @@ MEMBER MINGGUAN Rp. 27.500
 
 MEMBER BULANAN Rp. 137.500`)
              break
-case 'mlbbb':               
+case 'mlb':               
         reply(`*LIST MLBB PAKET B*
 
 PROSES 1-10 MENIT
