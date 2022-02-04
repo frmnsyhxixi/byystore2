@@ -1522,14 +1522,10 @@ case 'mla':
              reply(`nothing`)
              break
 case 'format2':
-             reply(`*Format Order (mlbb A)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
-             break 
-      case 'mlbbsemi':
-        case 'mlb':               
-               reply(`*Diamond Mobile Legends Paket B*
+             reply(`*Diamond Mobile Legends Paket B*
 *VIA ID + SERVER*
 
-34+5  💎 = Rp  8.064
+34+5  💎 = Rp  8.316
 58+7  💎 = Rp 13.440
 83+9  💎 = Rp  18.800
 120+13  💎 = Rp  26.900
