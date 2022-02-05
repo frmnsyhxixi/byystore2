@@ -1046,12 +1046,17 @@ Ovo : Siti Umayah
         case 'mld':               
                reply(`*MLBB FAST PAKET D*
 
-13 + 1 = 14💎 Rp3.000
-38 + 4 = 42💎 Rp9.000
-64 + 6 = 70💎 Rp15.000
-127 + 13 = 140💎 Rp30.000
-254+ 30 = 284💎 Rp60.000
-317 + 38 = 355💎 Rp75.000
+14     💎  3.000
+42     💎  9.000
+70     💎  15.000
+140    💎  30.000
+284    💎  60.000
+355    💎  75.000
+429    💎  90.000
+716    💎  150.000
+1145   💎  240.000
+1.446  💎  300.000
+2.976  💎  600.000
 
 Proses = 1-10 Menit (Kalau Web Normal)
 
@@ -1480,34 +1485,7 @@ R A D I U S
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/Tc8848V/db6ac4e8be4b.jpg'
-              teksnya = `- *PO Tanggal 29 Event Aspirant*
-
-70💎 = Rp 13.750
-182💎 = Rp 35.620
-284💎 = Rp 54.600
-355💎 = Rp 67.500
-716💎 = Rp 136.000
-1446💎 = Rp 270.000
-2976💎 = Rp 538.000
-
-*NOTE* = Close PO Tanggal 28 Jam 24.00 WIB
-
-- *PO SL FEBRUARI*
-Via id
-87rb/id
-86rb/10 id
-
-*SL Skin* 
-• Cecelion
-*•Opsi•*
-• Grock 
-• Saber 
-• Yishunshin 
-• Yu zong
-
-*NOTE* = PO TANGGAL 20+ HARGA JADI 88K
-
-Untuk Cek List PO Silahkan Ketik *${prefix}listpo*`
+              teksnya = `GADA PO PO AN`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
@@ -1604,36 +1582,7 @@ Proses maksimal 24 jam
              break
          case 'mlbbsemic':
         case 'semic':               
-               reply(`─ *MLBB Paket C* ─
-
-*Diamond Mobile Legends SEMI*
-*VIA ID + SERVER*
-*PROSES: 1 - 180 Menit*
-
-113💎 Rp. 25.500
-168💎 Rp. 37.500
-281💎 Rp. 62.700
-460💎 Rp. 98.500
-573💎 Rp. 125.907
-920💎 Rp. 197.798
-1427💎 Rp. 295.430
-1887💎 Rp. 392.832
-
-BERLAKU KELIPATAN
-
-Starlight⭐ Rp. 105.000
-Twilight⭐ Rp. 105.000
-
-Jam Operasional : Buka 09.00 - 19.00 WIB (LEWAT JAM DIPROSES BESOK!)
-
-NB : Proses maksimal 24 jam
-*FORMAT ORDER (mlbb)*
-ID :
-(Server) :
-NICK :
-ORDER DM :
-
-*HARGA SEWAKTU WAKTU BERUBAH*`)
+               reply(`Nothing`)
              break
         case 'sausage':
         case 'sosis':               
