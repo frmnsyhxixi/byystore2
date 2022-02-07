@@ -1799,8 +1799,8 @@ Order :`
         
         case 'daftar':
                list = []
-               listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`List PO`,`PROMO ALL`,`MLBB Preorder`,`Crystal Aurora`,`Promo Starlight`,`LIST Free Fire`,`List Point Blank`,`LIST MLBB`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
+               listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
+               listmenuu = [`List PO`,`PROMO ALL`,`MLBB Preorder`,`Crystal Aurora`,`Promo Starlight`,`LIST Free Fire`,`List Point Blank`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
