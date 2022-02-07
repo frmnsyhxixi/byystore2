@@ -1349,6 +1349,11 @@ Minat? Join https://chat.whatsapp.com/K8EOw7TBvTh9PgJgKmaWUq`)
 - 100K Followers 1.850.000
 Note : Jasa Promote IG anda untuk menaikan Followers Indonesia 100% Murni VIA TAG ARTIS
 
+*New*
+- 1K View Reel 4k
+- 100k Like Indo 3.5k
+- 5k Reach / Insight 3.5k
+
 • Instagram Live Stream
 - 100 View 20rb
 
