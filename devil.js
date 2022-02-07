@@ -1064,31 +1064,23 @@ Proses = 1-10 Menit (Kalau Web Normal)
              break
      case 'genshin':               
     gopeynya = 'https://i.ibb.co/QdsyzJ8/7211343c924a.jpg'
-              teksnya = `*LIST GENSHIN IMPACT*
+              teksnya = `*Genesis Crystal*
+*VIA UID*
 
-Tanyakan Stock⭐
-=========================
-Via ID
+60💠 Rp. 13.500,00
+300💠 + 30💠 Rp. 65.000,00
+980💠 + 110💠 Rp. 195.000,00
+1980💠 + 260💠 Rp. 420.000,00
+3280💠 + 600💠 Rp. 650.000,00
+6480💠 + 1600💠 Rp. 1.300.000,00
 
-300   + 30   G Crystal💠
-Rp = 60.000
 
-980   + 110   G Crystal💠
-Rp =  180.000
+Blessing of welkin moon ⭐  = Rp 65.000
 
-1980 + 260   G Crystal💠
-Rp = 390.000
-
-3280 + 600   G Crystal💠
-Rp = 600.000
-
-6480 + 1600 G Crystal💠
-Rp =  1.220.000
-=======================
-Blessing Card = Rp62.000⭐
-
-*NOTE* = PROSES SEMI
-Bonus Hanya Berlaku Untuk Pembelian Pertama`
+Jam Operasional : Buka 24 Jam
+Estimasi proses : 1 - 20 menit
+NB : Proses maksimal 24 jam
+*HARGA SEWAKTU WAKTU BERUBAH*`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 
@@ -1803,7 +1795,7 @@ Order :`
         case 'daftar':
                list = []
                listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`ml`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`List PO`,`PROMO ALL`,`MLBB PO`,`CRYSTAL AURORA`,`PROMO SL`,`LIST Free Fire`,`List Point Blank`,`LIST MLBB`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
+               listmenuu = [`List PO`,`PROMO ALL`,`MLBB Preorder`,`Crystal Aurora`,`Promo Starlight`,`LIST Free Fire`,`List Point Blank`,`LIST MLBB`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
