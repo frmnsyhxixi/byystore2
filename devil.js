@@ -1031,7 +1031,7 @@ Contoh = ${prefix}menu`
         case 'pembayaran':               
                gopeynya = 'https://i.ibb.co/Q6SQqnC/e5d7aa551a20.jpg'
               teksnya = `Pembayaran 
-*Dana*: 089507948843
+*Dana*: 085975115558
 *Ovo* : 085975115558
 *Gopay* : 085975115558
 *ShopeePay* : 085975115558
