@@ -1469,31 +1469,25 @@ Nominal Order :
 Terimakasih Semoga Mengerti ^_^`)
              break
 case 'promo':               
-        reply(`NOTHING`)
+        reply(`nothing`)
 
              break
 case 'listpo':               
-               reply(`*Sl Febuari*
-Keyruz.
-463713687 
-2386
-
-*Sl Febuari*
-R A D I U S
-98808921
-2510`)
+               reply(`KOSONG`)
              break
 case 'mlpo':
-                gopeynya = 'https://i.ibb.co/Tc8848V/db6ac4e8be4b.jpg'
-              teksnya = `GADA PO PO AN`
+                gopeynya = 'https://i.ibb.co/jbvqbYz/d1a1fa62b8fd.jpg'
+              teksnya = `PO SL MARET 86K ✅`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
-        reply(`*Promo Starlight Febuari*
-HARGA BIASA : 95.000
-HARGA RESS : 91.000
+        reply(`*Promo Starlight Febuari*✅
 
-*NOTE* : TANYAKAN STOCK SEBELUM ORDER`)
+Tanggal *1-10* = Rp 90.000💵
+Tanggal *11-20* = Rp 92.000💵
+Tanggal *21-30* = Rp 95.000💵
+
+Tanyakan Stock Sebelum Order Masee✅`)
 
              break
 case 'mla':
