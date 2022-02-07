@@ -1482,7 +1482,9 @@ case 'mlpo':
 480+54  💎 = Rp 102.550
 600+70  💎 = Rp 128.334
 
-*NOTE* = Proses Semi Karena Yang Proses Worker,Close Tanggal 10,Dilarang Ganti Id Jika Sudah Masuk List`
+*NOTE* = Proses Semi Karena Yang Proses Worker,Close Tanggal 10,Dilarang Ganti Id Jika Sudah Masuk List
+
+*PO SL MARET 86K* ✅`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
