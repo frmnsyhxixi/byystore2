@@ -1473,8 +1473,16 @@ case 'listpo':
                reply(`KOSONG`)
              break
 case 'mlpo':
-                gopeynya = 'https://i.ibb.co/jbvqbYz/d1a1fa62b8fd.jpg'
-              teksnya = `PO SL MARET 86K ✅`
+                gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
+              teksnya = `*Po Tanggal 14 Event Aspirant*
+
+120+13  💎 = Rp  25.620
+240+26  💎 = Rp  51.240
+360+40  💎 = Rp  76.850
+480+54  💎 = Rp 102.550
+600+70  💎 = Rp 128.334
+
+*NOTE* = Proses Semi Karena Yang Proses Worker,Close Tanggal 10,Dilarang Ganti Id Jika Sudah Masuk List`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
