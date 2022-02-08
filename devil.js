@@ -1499,15 +1499,19 @@ Order : 133💎`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
-              teksnya = `*Po Tanggal 19 Event Aspirant*
+              teksnya = `*PO TANGGAL 19 EVENT ASPIRANT*
 
 120+13  💎 = Rp  25.620
 240+26  💎 = Rp  51.240
 360+40  💎 = Rp  76.850
 480+54  💎 = Rp 102.550
 600+70  💎 = Rp 128.334
+1200+ 142💎 = Rp 260.431
 
-*NOTE* = Proses Semi Karena Yang Proses Worker,Close Tanggal 10,Dilarang Ganti Id Jika Sudah Masuk List
+*NOTE*
+-Proses Agak Lama Karena Yang  Proses Worker
+-Close Tanggal 10
+-Dilarang Ganti Id Jika Sudah Masuk List
 
 *PO SL MARET 86K* ✅`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
