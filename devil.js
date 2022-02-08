@@ -1490,7 +1490,12 @@ Order : 266💎
 Nick : Mell still love you.
 ID : 101885953
 Server : 2521
-Order : 670💎`)
+Order : 670💎
+
+Nick : Friezz Ahh.
+ID : 117149540
+Server : 2597
+Order : 133💎`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
