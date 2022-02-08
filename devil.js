@@ -1470,7 +1470,12 @@ case 'promo':
 
              break
 case 'listpo':               
-               reply(`KOSONG`)
+               reply(`*LIST PO EVENT ASPIRANT PHASE 2*
+
+Nick : DemangTzy
+ID : 603714956
+Server : 8406
+Order : 266💎`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
