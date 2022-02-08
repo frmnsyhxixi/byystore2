@@ -1474,7 +1474,7 @@ case 'listpo':
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
-              teksnya = `*Po Tanggal 14 Event Aspirant*
+              teksnya = `*Po Tanggal 19 Event Aspirant*
 
 120+13  💎 = Rp  25.620
 240+26  💎 = Rp  51.240
