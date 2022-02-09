@@ -1510,7 +1510,12 @@ Order : 670💎
 Nick : Boy.
 ID : 186071156
 Server : 2974
-Order : 670💎 + 400💎`)
+Order : 670💎 + 400💎
+
+Nick : Nuu Ur fav mage
+ID : 93434486
+Server : 2195
+Order : 534💎`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
