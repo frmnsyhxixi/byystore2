@@ -1495,7 +1495,22 @@ Order : 670💎
 Nick : Friezz Ahh.
 ID : 117149540
 Server : 2597
-Order : 133💎`)
+Order : 133💎
+
+Nick:『༒I'SCREAM么』 
+ID : 579472727
+Server : 8317
+Order : 670💎
+
+Nick : Reyy.
+ID : 1118297885
+Server : 13498
+Order : 670💎
+
+Nick : Boy.
+ID : 186071156
+Server : 2974
+Order : 670💎 + 400💎`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
