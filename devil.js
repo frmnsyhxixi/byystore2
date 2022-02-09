@@ -1515,7 +1515,12 @@ Order : 670💎 + 400💎
 Nick : Nuu Ur fav mage
 ID : 93434486
 Server : 2195
-Order : 534💎`)
+Order : 534💎
+
+Nick : faaza
+ID : 628484627
+Server : 8502
+Order : 670💎`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
