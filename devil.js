@@ -1855,7 +1855,9 @@ Via Login
 *FORMAT ORDER COA*
 Email : 
 Pass :
-Order :`
+Order :
+
+Langsung Aja Chat wa.me/6281286272532`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 						
