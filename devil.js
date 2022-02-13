@@ -1062,6 +1062,26 @@ Proses = 1-10 Menit (Kalau Web Normal)
 
 *NOTE* = Tanyakan Stock Terlebih Dahulu`)
              break
+case 'pay2':               
+               reply(`*Pembayaran Pakai Rek.Bca/E-Wallet*
+Ovo=khusus jam (08.00-21.00) + 500p
+
+Dana=081249282477
+
+Bca=3160230249
+
+Shopey=qris
+
+Gopay= lewat QR khusus jam (08.00-21.00) + 500p
+
+QRISS= 1%+500P (KODE MINTA ADMIN)
+
+PULSA= Rate 0.75 (Khusus Telkomnyet)
+
+A.N=Muhammad Romi Nugroho
+
+*CATATAN SAAT MENTRANSFER VIA DANA DLL DI CATATANNYA TULIS KETERANGAN MANTYRSTORE*`)
+             break
      case 'genshin':               
     gopeynya = 'https://i.ibb.co/QdsyzJ8/7211343c924a.jpg'
               teksnya = `*Genesis Crystal*
