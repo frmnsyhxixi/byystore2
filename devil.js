@@ -1442,18 +1442,7 @@ Melanggar tidak dapat garansi!
   
         case 'ff':
         case 'freefire':               
-               reply(`Diamone Free Fire🔥
-Via ID
-
-130  💎 = Rp 15.000
-260  💎 = Rp 30.000
-400  💎 = Rp 45.000
-535  💎 = Rp 60.000
-800  💎 = Rp 90.000
-1350💎 = Rp 150.000
-2800💎 = Rp 300.000
-
-Proses 1-10 Menit Jika Web Normal`)
+               reply(`nothing masse`)
              break
 case 'format1':
              reply(`Berikan Keterangan Order apa :
@@ -1520,7 +1509,153 @@ Order : 534💎
 Nick : faaza
 ID : 628484627
 Server : 8502
-Order : 670💎`)
+Order : 670💎
+
+*URUTAN PO*
+*List po Event phase 2*
+1, 919803850 (12649)= 670dm
+
+2, 416962908 (9921)= 534dm
+
+3, 393845149 (9833)= 534dm
+
+4, 146890335 (2737)= 534dm+39dm
+
+5, 736299347 (8936)= 534dm+39dm
+
+6, 113886966 (2577)= 400dm
+
+7, 711966379 (8837)= 534dm+39dm
+
+8, 121971807 (2603)= 534dm+39dm
+
+9, 504176222 (8025)= 670dm
+
+10, 31690420 (2047)= 670dm
+
+11, 696695991 (8772)= 670dm
+
+12, 60327541 (2105)= 670dm
+
+13, 695919594 (8769)= 534dm+39dm
+
+14, 946108640 (12760)= 670dm
+
+15, 27328173 (3032)= 670dm
+
+16, 580487148 (8329)= 670dm
+
+17, 1010594555 (13044)= 133dm
+
+18, 475937416 (2436)= 534+39dm
+
+19, 869588824 (12457)= 400dm
+
+20, 512421114 (8064)= 534dm
+
+21, 236740647 (9239)= 266dm
+
+22, 236740647 (9239)= 266dm
+
+23,  101885953 (2521)= 670dm
+
+24, 117149540 (2597)= 133dm
+
+25, 474386873 (2421)= 1342dm
+
+26, 552625295 (3466)=534dm
+
+27, 186071156 (2974)=670+400dm
+
+28, 1118297885 (13498)=670dm
+
+29, 579472727 (8317)=670dm
+
+30, 603714956 (8406) =266dm
+
+31, 93434486 (2195) =534dm
+
+32, 628484627 (8502) =670dm
+
+
+*DIKIRIM MULAI JAM 15.00TANGGAL* *19-02-2022 MAX PENGIRIMAN 24 JAM*
+
+Po Sl maret
+
+1, 919803850 (12649)= Sl
+*List po Event phase 2*
+1, 919803850 (12649)= 670dm
+
+2, 416962908 (9921)= 534dm
+
+3, 393845149 (9833)= 534dm
+
+4, 146890335 (2737)= 534dm+39dm
+
+5, 736299347 (8936)= 534dm+39dm
+
+6, 113886966 (2577)= 400dm
+
+7, 711966379 (8837)= 534dm+39dm
+
+8, 121971807 (2603)= 534dm+39dm
+
+9, 504176222 (8025)= 670dm
+
+10, 31690420 (2047)= 670dm
+
+11, 696695991 (8772)= 670dm
+
+12, 60327541 (2105)= 670dm
+
+13, 695919594 (8769)= 534dm+39dm
+
+14, 946108640 (12760)= 670dm
+
+15, 27328173 (3032)= 670dm
+
+16, 580487148 (8329)= 670dm
+
+17, 1010594555 (13044)= 133dm
+
+18, 475937416 (2436)= 534+39dm
+
+19, 869588824 (12457)= 400dm
+
+20, 512421114 (8064)= 534dm
+
+21, 236740647 (9239)= 266dm
+
+22, 236740647 (9239)= 266dm
+
+23,  101885953 (2521)= 670dm
+
+24, 117149540 (2597)= 133dm
+
+25, 474386873 (2421)= 1342dm
+
+26, 552625295 (3466)=534dm
+
+27, 186071156 (2974)=670+400dm
+
+28, 1118297885 (13498)=670dm
+
+29, 579472727 (8317)=670dm
+
+30, 603714956 (8406) =266dm
+
+31, 93434486 (2195) =534dm
+
+32, 628484627 (8502) =670dm
+
+
+*DIKIRIM MULAI JAM 15.00TANGGAL* *19-02-2022 MAX PENGIRIMAN 24 JAM*
+
+Po Sl maret
+
+1, 919803850 (12649)= Sl
+
+2, 114679293 (2590)=Sl`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
@@ -1865,8 +2000,8 @@ Langsung Aja Chat wa.me/6281286272532`
         
         case 'daftar':
                list = []
-               listmenu = [`listpo`,`promo`,`mlpo`,`coa`,`promosl`,`ff`,`cashpb`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`List PO`,`PROMO ALL`,`MLBB Preorder`,`Crystal Aurora`,`Promo Starlight`,`LIST Free Fire`,`List Point Blank`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
+               listmenu = [`listpo`,`promo`,`mla`,`mlb`,`semic`,`coa`,`promosl`,`ff`,`cashpb`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
+               listmenuu = [`List PO`,`PROMO ALL`,`Ml Paket A`,`Ml Paket B`,`Ml Paket C`,`Crystal Aurora`,`Promo Starlight`,`LIST Free Fire`,`List Point Blank`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
