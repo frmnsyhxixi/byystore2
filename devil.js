@@ -1929,8 +1929,8 @@ Langsung Aja Chat wa.me/6281286272532`
         
         case 'daftar':
                list = []
-               listmenu = [`listpo`,`promo`,`mla`,`mlb`,`semic`,`coa`,`promosl`,`ff`,`cashpb`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mld`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
-               listmenuu = [`List PO`,`PROMO ALL`,`Ml Paket A`,`Ml Paket B`,`Ml Paket C`,`Crystal Aurora`,`Promo Starlight`,`LIST Free Fire`,`List Point Blank`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Paket D`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
+               listmenu = [`listpo`,`promo`,`mla`,`mlb`,`semic`,`mld`,`coa`,`promosl`,`ff`,`cashpb`,`sosis`,`apkprem`,`mlgift`,`genshin`,`genshinv`,`pubg`,`mlsuperslow`,`sosmed`,`ragnarox`,`dragonraja`,`valorant`,`rekber`,`rdp`,`sewabott`,`caraorder`,`cv`,`format1`,`pay`,`tf`,`reseller`,`owner`]
+               listmenuu = [`List PO`,`PROMO ALL`,`Ml Paket A`,`Ml Paket B`,`Ml Paket C`,`Ml Paket D`,`Crystal Aurora`,`Promo Starlight`,`LIST Free Fire`,`List Point Blank`,`LIST Sausage Man`,`List Apk Premium`,`Gift MLBB`,`List Genshin`,`List Genshin Vilog`,`List Pubg`,`Ml Super Slow`,`List Sosmed`,`List Ragnarox`,`List Dragon Raja`,`List Valorant`,`Harga Rekber`,`List RDP VPS`,`Harga BOT Wa`,`Cara Order`,`Convert Ewallet`,`Format Order`,`Metode Pembayaran`,`BUKTI TF`,`JOIN RESELLER`,`OWNER`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
