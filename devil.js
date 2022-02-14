@@ -1429,17 +1429,9 @@ JIKA DROP DAN STATUS GARANSI , MAKA AKAN DI ISI ULANG.`)
 *BERLAKU KELIPATAN*`)
              break
     case 'apkprem':               
-               reply(`Yt Premium 1 bulan 4k✅
-(Via Invite)
-
-Canva Premium 1 Tahun 10k✅
-
-Netflix Premium 30k✅
-(1 Profil 1 User)
-
-Netflix Premium (5 Profile) 100k ✅
-
-We TV 1 Tahun 15k✅
+               reply(`Sharing profile 24k
+Private profile 35k
+Private 5 profile 135k
 
 Keuntungan Netflix Premium
 ✅ Streaming Ultra HD
