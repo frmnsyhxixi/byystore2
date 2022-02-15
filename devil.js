@@ -1764,23 +1764,23 @@ case 'mlb':
         reply(`*Diamond Mobile Legends Paket B*
 *VIA ID + SERVER*
 
-34+5  💎 = Rp  8.064
-58+7  💎 = Rp 13.440
-83+9  💎 = Rp  18.800
-120+13  💎 = Rp  26.900
-240+26  💎 = Rp  53.800
-360+40  💎 = Rp  80.650
-480+54  💎 = Rp  107.550
-600+70  💎 = Rp 134.400
-1200+142 💎 = Rp 268.900
-2400+300 💎 = Rp 537.600
-3600+550 💎 = Rp 806.400
-6000+1050 💎 = Rp 1.344.000
+34+5  💎 = Rp  8.448
+58+7  💎 = Rp 14.080
+83+9  💎 = Rp  19.712
+120+13  💎 = Rp  28.160
+240+26  💎 = Rp  56.352
+360+40  💎 = Rp  854.448
+480+54  💎 = Rp  112.640
+600+70  💎 = Rp 140.800
+1200+142 💎 = Rp 281.600
+2400+300 💎 = Rp 563.200
+3600+550 💎 = Rp 844.000
+6000+1050 💎 = Rp 140.080
 
 BERLAKU KELIPATAN
 
 Jam Operasional : Buka 24 Jam
-Estimasi proses : 1 - 15 menit
+Estimasi proses : 3 - 20 menit ketika sudah diproses admin
 NB : Proses maksimal 24 jam`)
              break
 case 'formatt':               
