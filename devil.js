@@ -1471,62 +1471,7 @@ case 'promo':
 
              break
 case 'listpo':               
-               reply(`*LIST PO EVENT ASPIRANT PHASE 2*
-
-Nick : DemangTzy
-ID : 603714956
-Server : 8406
-Order : 266💎
-
-Nick : OhMyD4us彡
-ID : 236740647
-Server : 9239
-Order : 266💎
-
-Nick : OhMyD4us彡
-ID : 236740647
-Server : 9239
-Order : 266💎
-
-Nick : Mell still love you.
-ID : 101885953
-Server : 2521
-Order : 670💎
-
-Nick : Friezz Ahh.
-ID : 117149540
-Server : 2597
-Order : 133💎
-
-Nick:『༒I'SCREAM么』 
-ID : 579472727
-Server : 8317
-Order : 670💎
-
-Nick : Reyy.
-ID : 1118297885
-Server : 13498
-Order : 670💎
-
-Nick : Boy.
-ID : 186071156
-Server : 2974
-Order : 670💎 + 400💎
-
-Nick : Nuu Ur fav mage
-ID : 93434486
-Server : 2195
-Order : 534💎
-
-Nick : faaza
-ID : 628484627
-Server : 8502
-Order : 670💎
-
-Contact admin po wa.me/6281249282477
-
-*URUTAN PO*
-*List po Event phase 2*
+               reply(`*List po Event phase 2*
 1, 919803850 (12649)= 670dm
 
 2, 416962908 (9921)= 534dm
@@ -1591,6 +1536,12 @@ Contact admin po wa.me/6281249282477
 
 32, 628484627 (8502) =670dm
 
+33, 351189668 (3700)=534+39dm
+
+34, 28038964 (2040)=534+39dm
+
+35, 359406450 (2269)=133dm
+
 
 *DIKIRIM MULAI JAM 15.00TANGGAL* *19-02-2022 MAX PENGIRIMAN 24 JAM*
 
@@ -1602,21 +1553,17 @@ Po Sl maret
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
-              teksnya = `*PO TANGGAL 19 EVENT ASPIRANT*
+              teksnya = `*OPEN PO DM EVENT ASPIRANT PHASE 2*
 
-120+13  💎 = Rp  25.620
-240+26  💎 = Rp  51.240
-360+40  💎 = Rp  76.850
-480+54  💎 = Rp 102.550
-600+70  💎 = Rp 128.334
-1200+ 142💎 = Rp 260.431
+133 💎 (120+13) = IDR 26.000
+305 💎 (274+31) = IDR 60.000
+573 💎 (534+39) = IDR 112.500
 
-*NOTE*
--Proses Agak Lama Karena Yang  Proses Worker
--Close Tanggal 10
--Dilarang Ganti Id Jika Sudah Masuk List
 
-*PO SL MARET 86K* ✅`
+_*WAJIB ISI FORMAT PO*_
+NOTE : _Dikirim tgl 19 FEB , start jam 3+, pengiriman sesuai antrian (spam = hangus)
+Denom jumlah lain bisa di pake harga promo, 
+*NO REFF KECUALI WEB YG BERMASALAH*`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
