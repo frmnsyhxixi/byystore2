@@ -1626,6 +1626,17 @@ NB : Proses maksimal 24 jam`)
 case 'format3':
              reply(`*Format Order (mlbb B)*\n\nNickname:\nID :\n(server):\nOrder DM:`)
              break 
+             case 'reedemml':
+             reply(`*_KODE REEDEM MLBB_*
+
+167 💎 Rp 34.500 (28pcs)
+100 💎 Rp 26.500 (3pcs)
+66   💎 Rp 13.000 (5pcs)
+
+NB : REEDEM WAJIB RECORD
+
+https://m.mobilelegends.com/en/codexchange`)
+             break 
         case 'mlbb':               
                parseMention = (text = '') => {
                return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
