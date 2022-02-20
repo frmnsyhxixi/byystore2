@@ -1629,13 +1629,9 @@ case 'format3':
              case 'reedemml':
              reply(`*_KODE REEDEM MLBB_*
 
-167 💎 Rp 34.500 (28pcs)
-100 💎 Rp 26.500 (3pcs)
-66   💎 Rp 13.000 (5pcs)
+100 💎 Rp 23.000 (4pcs)
 
-NB : REEDEM WAJIB RECORD
-
-https://m.mobilelegends.com/en/codexchange`)
+NB : Direedemkan Admin`)
              break 
         case 'mlbb':               
                parseMention = (text = '') => {
