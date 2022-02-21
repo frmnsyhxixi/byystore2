@@ -1474,7 +1474,7 @@ case 'listpo':
                reply(`101885953 = Sl Gift`)
              break
 case 'mlpo':
-                gopeynya = 'https://ibb.co/z7bHk9Y'
+                gopeynya = 'https://i.ibb.co/HpFz3NZ/images-2022-02-21-T170036-643.jpg'
               teksnya = `*PO STARLIGHT MARET*
 80K Via Gift`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
