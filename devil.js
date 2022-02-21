@@ -1471,120 +1471,12 @@ case 'promo':
 
              break
 case 'listpo':               
-               reply(`*List po Event phase 2*
-1, 919803850 (12649)= 670dm
-
-2, 416962908 (9921)= 670dm (GANTI DM)
-
-3, 393845149 (9833)= 670dm (DI GANTI)
-
-4, 146890335 (2737)= 670dm (DI GANTI)
-
-5, 736299347 (8936)= 670DM (DIGANTI)
-
-6, 113886966 (2577)= 400dm
-
-7, 711966379 (8837)= 670dm (DIGANTI)
-
-8, 121971807 (2603)= 670dm (DIGANTI)
-
-9, 504176222 (8025)= 670dm
-
-10, 31690420 (2047)= 670dm
-
-11, 696695991 (8772)= 670dm
-
-12, 60327541 (2105)= 670dm
-
-13, 695919594 (8769)= 534dm+39dm
-
-14, 946108640 (12760)= 670dm
-
-15, 27328173 (3032)= 670dm
-
-16, 580487148 (8329)= 670dm
-
-17, 1010594555 (13044)= 133dm
-
-18, 475937416 (2436)= 534+39dm
-
-19, 869588824 (12457)= 400dm
-
-20, 512421114 (8064)= 670dm (DIGANTI )
-
-21, 236740647 (9239)= 266dm
-
-22, 236740647 (9239)= 266dm
-
-23,  101885953 (2521)= 670dm
-
-24, 117149540 (2597)= 133dm
-
-25, 474386873 (2421)= 1342dm
-
-26, 552625295 (3466)=670dm (DIGANTI)
-
-27, 186071156 (2974)=670+400dm
-
-28, 1118297885 (13498)=670dm
-
-29, 579472727 (8317)=670dm
-
-30, 603714956 (8406) =266dm
-
-31, 146893329 (2737) =670+39dm
-
-32, 628484627 (8502) =670dm
-
-33, 351189668 (3700)=670dm (DI GANTI)
-
-34, 1118297885 (13498)= 670dm
-
-35, 359406450 (2269)=133dm
-
-36, 1132564424 (13569)= 670dm (diganti)
-
-37, 463713686 (2386)= 266+39 dm
-
-38, 10009060172(13029)= 670dm
-
-39, 170040475 (2856)= 4150dm
-
-40, 919803850 (12649)=670 + 670dm
-
-41, 111178973 (2560)= 670dm
-
-42, 136186238 (2677)= 670dm
-
-43, 72797842 (2042)= 670dm
-
-44, 136679342 (2676)= 284dm MLC
-
-45, 166970179 (2244)= 670dm
-
-*DIKIRIM MULAI JAM 15.00TANGGAL* *19-02-2022 MAX PENGIRIMAN 24 JAM*
-
-Po Sl maret
-
-1, 919803850 (12649)= Sl
-
-2, 114679293 (2590)=Sl
-
-3, 317169511 (9641)=Sl`)
+               reply(`101885953 = Sl Gift`)
              break
 case 'mlpo':
-                gopeynya = 'https://i.ibb.co/1GQWkzc/0fd29d6b989c.jpg'
-              teksnya = `*OPEN PO DM EVENT ASPIRANT PHASE 2*
-
-133 💎 (120+13) = IDR 26.000
-305 💎 (274+31) = IDR 60.000
-573 💎 (534+39) = IDR 112.500
-
-
-_*WAJIB ISI FORMAT PO*_
-NOTE : _Dikirim tgl 19 FEB , start jam 3+, pengiriman sesuai antrian (spam = hangus)
-Denom jumlah lain bisa di pake harga promo, 
-*NO REFF KECUALI WEB YG BERMASALAH*`
+                gopeynya = 'https://ibb.co/z7bHk9Y'
+              teksnya = `*PO STARLIGHT MARET*
+80K Via Gift`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
