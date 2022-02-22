@@ -1471,7 +1471,8 @@ case 'promo':
 
              break
 case 'listpo':               
-               reply(`101885953 = Sl Gift`)
+               reply(`101885953 = Sl Gift
+463713686 = Sl Gift`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/HpFz3NZ/images-2022-02-21-T170036-643.jpg'
