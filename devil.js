@@ -1476,9 +1476,19 @@ case 'listpo':
 1132564424 = Sl Gift`)
              break
 case 'mlpo':
-                gopeynya = 'https://i.ibb.co/HpFz3NZ/images-2022-02-21-T170036-643.jpg'
-              teksnya = `*PO STARLIGHT MARET*
-80K Via Gift`
+                gopeynya = 'https://i.ibb.co/yFqPmP2/IMG-20220227-WA0019.jpg'
+              teksnya = `*PO EVENT SANRIO*
+
+92💎+39💎= Rp 27.720
+(Event 100)
+
+266💎+39💎= Rp 63.787
+(Event 250)
+
+534💎+39 = Rp 119.200 (Event 500)
+
+Pengiriman Dimulai Saat Event Berlangsung
+Kalau Close Dikabari`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
