@@ -1473,7 +1473,15 @@ case 'promo':
 case 'listpo':               
                reply(`101885953 = Sl Gift
 463713686 = Sl Gift
-1132564424 = Sl Gift`)
+1132564424 = Sl Gift
+
+101885953 (2521)
+Mell still love you.
+Po 534+39
+
+1132564424 (13569)
+CigarettesAfterSex
+PO 534+39`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/yFqPmP2/IMG-20220227-WA0019.jpg'
