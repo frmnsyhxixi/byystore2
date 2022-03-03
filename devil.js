@@ -1471,17 +1471,55 @@ case 'promo':
 
              break
 case 'listpo':               
-               reply(`101885953 = Sl Gift
-463713686 = Sl Gift
-1132564424 = Sl Gift
+               reply(`*List po Event PO SANRIO*
 
-101885953 (2521)
-Mell still love you.
-Po 534+39
+*DIKIRIM MULAI JAM 15.00TANGGAL* *EVENT KELUAR LANGSUNG DIKIRIM MAX PENGIRIMAN 24 JAM*
 
-1132564424 (13569)
-CigarettesAfterSex
-PO 534+39`)
+1, 919803850 (12649)=2700dm
+
+2,111178973 (2560)=534dm+39dm
+
+3, 117149540 (2597)= 534+39dm tuker yg reff
+
+4, 181339593 (2935)= 534+39dm
+
+5, 580487148 (8329)= 534 dm+39dm
+
+6, 336635086 (9672)= 92 dm+39dm
+
+7, 82142045 (2152)= 534dm+39dm
+
+8, 101885953 (2521)= 534dm+39dm
+
+9, 1132564424 (13569)= 534dm+39dm
+
+10, 111178973 (2560)= 534dm+39dm
+
+11, 735942045 (8930)= 534+39 dm
+
+12, 439926328 (2271)= 534+39 dm
+
+13, 175707951 (2915)= 534+39 dm
+
+14, 200823325 (9059)= 534+39dm
+
+15, 375116781 (9698) = 534+39dm
+
+16, 43297847 (2066) = 92+39dm
+
+17, 869588824 (12457) =266+39dm
+
+18, 665211436 (8651) = 534+39dm
+
+19, 781031691 (12118)= 534+39dm
+
+20, 474386873 (2421)= 534+39dm
+
+21, 1020643508 (13077)= 534+39dm
+
+22, 243173105 (9268)= 266+39dm
+
+ID SUDAH TERDAFTAR TIDAK BISA DI UBAH, MAKSA UBAH? HANGUS`)
              break
 case 'mlpo':
                 gopeynya = 'https://i.ibb.co/yFqPmP2/IMG-20220227-WA0019.jpg'
