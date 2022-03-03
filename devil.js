@@ -1198,10 +1198,10 @@ case 'cv':
         reply(`*Jasa Convert* 🔥
 
 _*FEE*_
-_Nominal 15K - 50K Fee Rp 1000_
-_Nominal 51K - 100K Fee Rp 2.000_
-_Nominal 101K - 150K Fee Rp 2.500_
-_Nominal 151K - 200K Fee Rp 3.500_
+_Nominal 15K - 50K Fee Rp 500_
+_Nominal 51K - 100K Fee Rp 800_
+_Nominal 101K - 150K Fee Rp 1.100_
+_Nominal 151K - 200K Fee Rp 2.500_
 
 *MIN CV 15K*
 *MAX CV 200K*
