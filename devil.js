@@ -1420,9 +1420,18 @@ JIKA DROP DAN STATUS GARANSI , MAKA AKAN DI ISI ULANG.`)
 *BERLAKU KELIPATAN*`)
              break
     case 'apkprem':               
-               reply(`Sharing profile 24k
-Private profile 35k
-Private 5 profile 135k
+               reply(`*Promo Bulan Ini*
+
+Canva 1 Tahun 4k ✅
+Yt premium 4 Bulan 12k ✅
+Disney Hotstar + 1Bulan 13k ✅
+Netflix private Profile 1 Bulan 34k ✅
+Netflix private Profile 3 Bulan 66k (PO) ✅
+We Tv Sharing 7k 1 Tahun ✅
+=================
+Sharing profile 24k✅
+Private profile 35k✅
+Private 5 profile 135k✅
 
 Keuntungan Netflix Premium
 ✅ Streaming Ultra HD
