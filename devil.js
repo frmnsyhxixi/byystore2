@@ -1030,17 +1030,19 @@ Contoh = ${prefix}menu`
         case 'pay':
         case 'pembayaran':               
                gopeynya = 'https://i.ibb.co/Q6SQqnC/e5d7aa551a20.jpg'
-              teksnya = `Pembayaran 
-*Dana*: 085975115558
-*Ovo* : 085975115558
-*Gopay* : 085975115558
-*ShopeePay* : 085975115558
-*Indomaret* : Minta Kode Ke Admin
+              teksnya = `*Dana*: 085975115558 ✅
+*Ovo* : 085975115558 ✅
+*Gopay* : 085975115558✅
+*ShopeePay* : 085975115558✅
+*Indomaret* : Minta Kode Ke Admin ✅
+*Bukuwarung* : Minta Dibuatin Admin ✅
+*Qriss* : Khusus Nom Dibawah 15K Yak ✅
 ====================
-Semua : A/N Robby Firmansyah
-Ovo : Siti Umayah
+Semua : A/N Robby Firmansyah 💵
+Ovo : Siti Umayah 💵
 ====================
-*HAPPY SHOPPING*`
+Sekalian Isi Format Yak
+🌨️ *Terimakasih* 🌨️`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
         case 'mld':               
@@ -1118,18 +1120,7 @@ Format Order
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
   case 'botwa':               
-               reply(`*Harga Sewa Bot Byy Store*
-- Sewa 7 Hari 10k🤖
-- Sewa 30 Hari 20k🤖
-==================
-*Harga Beli Sc BOT*
-- Sc A 40k🤖
-- Sc B 45k 🤖
-=================
-*Sepaket 2 SC*
-- Paket 2 75k🤖
-=================
-Wa.me/6289507948843`)
+               reply(`Beli Sc 20k`)
              break
   case 'caraorder':               
         gopeynya = 'https://i.ibb.co/G3RJGG3/2850d5951ef6.jpg'
