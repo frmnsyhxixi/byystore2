@@ -1538,11 +1538,16 @@ Kalau Close Dikabari`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
-        reply(`*Promo Starlight Febuari*✅
+        reply(`*Promo Starlight Maret*✅
 
 Tanggal *1-10* = Rp 90.000💵
 Tanggal *11-20* = Rp 92.000💵
 Tanggal *21-30* = Rp 95.000💵
+
+Via Gift
+Tanggal *1-10* = Rp 82.000💵
+Tanggal *11-20* = Rp 84.000💵
+Tanggal *21-30* = Rp 89.000💵
 
 Tanyakan Stock Sebelum Order Masee✅`)
 
