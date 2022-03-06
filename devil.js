@@ -1584,7 +1584,7 @@ case 'format3':
              case 'reedemml':
              reply(`*_KODE REEDEM MLBB_*
 
-100 💎 Rp 23.000 (4pcs)
+100 💎 Rp 20.000 (1pcs)
 
 NB : Direedemkan Admin`)
              break 
