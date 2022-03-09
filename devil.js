@@ -1532,7 +1532,15 @@ case 'mlpo':
               break
   case 'listpo2':
                 gopeynya = 'https://i.ibb.co/yFqPmP2/IMG-20220227-WA0019.jpg'
-              teksnya = `*ANTRIAN BOOKING TANGGAL 12*
+              teksnya = `*OPEN BOOKING UNTUK EVENT TANGGAL 12*
+1️⃣```DI KIRIM PAS EVENT DI MULAI PALING LAMA JAM 10```
+
+2️⃣ ```KUOTA 700 RM```
+
+3️⃣ ```RATE SESUAI LIST```
+
+
+*ANTRIAN PO TANGGAL 12 Phase 2*
 
 1. ID ( server ) : 129824611 (2657)
 NICKNAME : Eternity
@@ -1543,7 +1551,33 @@ Nick : Reyy.
 Order PO 534+39
 
 3. ID : 192029869 (2986)
-order : 670 DM ( booking)`
+order : 670 DM ( booking)
+
+4. Nickname: mσrΣsense
+Id: 629196430 
+Server: 8501
+670 💎
+
+5. ID : 45801924 (2062)
+1342💎
+
+6. ID:779554727 ( 12104 )
+Nick:HII Angelssss.
+Order :172 💎 ( 133+39 )
+
+7. Id server : 610794116 (8441) 
+Hawk NoMercy.
+344 💎 ( 266+39+39 )
+
+8. Id server : 462608784 (2400)
+172💎 ( 133 + 39 )
+
+9. ID 33749065 ( 2051 )
+💎 1342 
+
+10. ID Server : 1118297885 (13498)
+Nick : Reyy.
+Order : PO 534 + 39`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 case 'promosl':               
