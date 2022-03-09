@@ -1532,15 +1532,7 @@ case 'mlpo':
               break
   case 'listpo2':
                 gopeynya = 'https://i.ibb.co/yFqPmP2/IMG-20220227-WA0019.jpg'
-              teksnya = `*OPEN BOOKING UNTUK EVENT TANGGAL 12*
-1️⃣```DI KIRIM PAS EVENT DI MULAI PALING LAMA JAM 10```
-
-2️⃣ ```KUOTA 700 RM```
-
-3️⃣ ```RATE SESUAI LIST```
-
-
-*ANTRIAN PO TANGGAL 12 Phase 2*
+              teksnya = `*ANTRIAN PO TANGGAL 12 Phase 2*
 
 1. ID ( server ) : 129824611 (2657)
 NICKNAME : Eternity
