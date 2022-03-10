@@ -1029,7 +1029,7 @@ Contoh = ${prefix}menu`
              break
         case 'pay':
         case 'pembayaran':               
-               gopeynya = 'https://i.ibb.co/Q6SQqnC/e5d7aa551a20.jpg'
+               gopeynya = 'https://i.ibb.co/BngcZ9s/qris-1646887197628.png'
               teksnya = `*Dana*: 085975115558 ✅
 *Ovo* : 085975115558 ✅
 *Gopay* : 085975115558✅
