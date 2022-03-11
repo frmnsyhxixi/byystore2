@@ -1029,7 +1029,7 @@ Contoh = ${prefix}menu`
              break
         case 'pay':
         case 'pembayaran':               
-               gopeynya = 'https://i.ibb.co/23RzKwp/1646961501-picsay.jpg'
+               gopeynya = 'https://i.ibb.co/SnTrdN6/Proyek-Baru-C79-F6-CA.png'
               teksnya = `*PAYMENT*
 
 ✅ *Dana* : 085975115558
@@ -2421,7 +2421,7 @@ Langsung Aja Chat wa.me/6281286272532`
              reply(`PULSA : 083110011351\n\n KARTU Axis`)
              break
       case 'qriss':               
-        gopeynya = 'https://i.ibb.co/BngcZ9s/qris-1646887197628.png'
+        gopeynya = 'https://i.ibb.co/m5149mM/qris-1646980168312.png'
               teksnya = `*Qris Bukwar*`
               devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
