@@ -1029,19 +1029,22 @@ Contoh = ${prefix}menu`
              break
         case 'pay':
         case 'pembayaran':               
-               gopeynya = 'https://i.ibb.co/BngcZ9s/qris-1646887197628.png'
-              teksnya = `️*Dana*: 085975115558 ✅
-*Ovo* : 085975115558 ✅
-*Gopay* : 085975115558✅
-*ShopeePay* : 085975115558✅
-*Seabank* : 901317719232✅
-*Bri* : 658401020776532✅
-*Indomaret* : Minta Kode Ke Admin ✅
-*Bukuwarung* : Minta Dibuatin Admin ✅
-*Qriss* : Khusus Nom Dibawah 15K Yak ✅
-====================
-Semua : A/N Robby Firmansyah 💵
-Ovo : Siti Umayah 💵
+               gopeynya = 'https://i.ibb.co/23RzKwp/1646961501-picsay.jpg'
+              teksnya = `*PAYMENT*
+
+✅ *Dana* : 085975115558
+✅ *Ovo* : 085975115558 
+✅ *Gopay* : 085975115558
+✅ *ShopeePay* : 085975115558
+✅ *Seabank* : 901317719232
+✅ *Bri* : 658401020776532
+✅ *Indomaret* : Minta Kode Ke Admin 
+✅ *Bukuwarung* : Minta Dibuatin Admin 
+✅ *Qriss* :  Ketik *${prefix}Qriss*
+✅ *Qriss Dana* : Ketik *${prefix}Dana*
+
+*_Semua : A/N Robby Firmansyah 💵_*
+_*Ovo : Siti Umayah 💵*_
 
 *Mohon Transfer Sesuai Harga Yak >_<*
 *Terimakasih* (づ｡◕‿‿◕｡)づ`
@@ -2417,9 +2420,16 @@ Langsung Aja Chat wa.me/6281286272532`
       case 'pulsa':
              reply(`PULSA : 083110011351\n\n KARTU Axis`)
              break
-      case 'dana':
-             reply(`DANA : 089630883352\n\n Alfi`)
-             break   
+      case 'qriss':               
+        gopeynya = 'https://i.ibb.co/BngcZ9s/qris-1646887197628.png'
+              teksnya = `*Qris Bukwar*`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
+      case 'dana':               
+        gopeynya = 'https://i.ibb.co/rGS9nt0/donasi.jpg'
+              teksnya = `*Qris Dana*`
+              devil.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              break
       case 'qris':
              wew = fs.readFileSync(`./media/payment.jpg`)
              teks = `SCAN QRIS DI ATAS A/N EZZ`
