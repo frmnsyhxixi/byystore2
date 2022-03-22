@@ -1033,15 +1033,15 @@ Contoh = ${prefix}menu`
               teksnya = `*PAYMENT*
 
 ✅ *Dana* : 085975115558
-✅ *Ovo* : 085975115558 
-✅ *Gopay* : 085975115558
+❎ *Ovo* : 085975115558 
+❎ *Gopay* : 085975115558
 ✅ *ShopeePay* : 085975115558
 ✅ *Seabank* : 901317719232
-✅ *Bri* : 658401020776532
+❎ *Bri* : 658401020776532
 ✅ *Indomaret* : Minta Kode Ke Admin 
 ✅ *Bukuwarung* : Minta Dibuatin Admin 
-✅ *Qriss* :  Ketik *${prefix}Qriss*
-✅ *Qriss Dana* : Ketik *${prefix}Dana*
+✅ *Qriss* :  Ketik */Qriss*
+✅ *Qriss Dana* : Ketik */Dana*
 
 *_Semua : A/N Robby Firmansyah 💵_*
 _*Ovo : Siti Umayah 💵*_
@@ -5866,7 +5866,7 @@ case 'linkgc':
 }
              break
       case 'hidetag':
-             if (!isGroupAdmins && !mek.key.fromMe) return  reply(mess.only.admin)
+             if (!isGroup && !mek.key.fromMe) return  reply(mess.only.group)
              try {
              quotedText = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
              hideTag(from, `${quotedText}`)
