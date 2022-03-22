@@ -1033,18 +1033,21 @@ Contoh = ${prefix}menu`
               teksnya = `*PAYMENT*
 
 ✅ *Dana* : 085975115558
-✅ *Ovo* : 085975115558 
-✅ *Gopay* : 085975115558
+❎ *Ovo* : 085975115558 
+❎ *Gopay* : 085975115558
 ✅ *ShopeePay* : 085975115558
 ✅ *Seabank* : 901317719232
-✅ *Bri* : 658401020776532
+❎ *Bri* : 658401020776532
 ✅ *Indomaret* : Minta Kode Ke Admin 
 ✅ *Bukuwarung* : Minta Dibuatin Admin 
-✅ *Qriss* :  Ketik *${prefix}Qriss*
-✅ *Qriss Dana* : Ketik *${prefix}Dana*
+✅ *Qriss* :  Ketik */Qriss*
+✅ *Qriss Dana* : Ketik */Dana*
 
-*_Semua : A/N Robby Firmansyah 💵_*
-_*Ovo : Siti Umayah 💵*_
+✅ *Semua = A/N Robby Firmansyah*
+❎ *Ovo = Siti Umayah*
+
+📌 *_NOTE_*
+_*Untuk Payment Ke Qris/Bukuwarung Biaya Aplikasi Rp 2000 Sesuai Ketentuan Dari Aplikasi (╯︵╰,)*_
 
 *Mohon Transfer Sesuai Harga Yak >_<*
 *Terimakasih* (づ｡◕‿‿◕｡)づ`
